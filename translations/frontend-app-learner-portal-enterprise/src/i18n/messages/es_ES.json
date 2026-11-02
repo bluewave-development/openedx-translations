@@ -200,7 +200,7 @@
   "enterprise.dashboard.programs.about.page.course.upgrade.certificate": "Actualizar a Verificado",
   "enterprise.dashboard.programs.about.page.courses.in.progress": "CURSOS EN PROGRESO",
   "enterprise.dashboard.programs.about.page.in.progress.course.pacing.type.and.start.date": "Inscrito: ( {pacingType} ) Iniciado {startDate}",
-  "enterprise.dashboard.programs.about.page.view.archived.course": "Ver curso archivado",
+  "enterprise.dashboard.programs.about.page.view.archived.course": "Ver taller archivado",
   "enterprise.dashboard.programs.about.page.view.course": "Ver curso",
   "enterprise.dashboard.programs.about.page.remaining.courses": "CURSOS RESTANTES",
   "enterprise.dashboard.programs.about.page.remaining.course.pacing.type.and.start.date": "( {pacingType} ) Inicia {startDate}",

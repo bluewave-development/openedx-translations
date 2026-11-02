@@ -25,7 +25,7 @@
   "learner-dash.emailSettings.description": "Los correos electrónicos del curso incluyen información importante sobre su curso proporcionada por los instructores.",
   "learner-dash.emailSettings.nevermind": "No importa",
   "learner-dash.emailSettings.save": "Guardar ajustes",
-  "learnerVariantDashboard.menu.dashboard.label": "Panel de Control",
+  "learnerVariantDashboard.menu.dashboard.label": "Panel de control",
   "learnerVariantDashboard.menu.dashboardPersonal.label": "Personal",
   "learnerVariantDashboard.menu.dashboardSwitch.label": "panel principal de conmutación",
   "learnerVariantDashboard.help.label": "Ayuda",
@@ -34,7 +34,7 @@
   "learnerVariantDashboard.menu.account.label": "Cuenta",
   "learnerVariantDashboard.menu.orderHistory.label": "Historial de órdenes",
   "learnerVariantDashboard.menu.signOut.label": "Cerrar sesión",
-  "learnerVariantDashboard.course": "talleres",
+  "learnerVariantDashboard.course": "Talleres",
   "learnerVariantDashboard.program": "Programas",
   "learnerVariantDashboard.discoverNew": "Encontrar nuevo",
   "learnerVariantDashboard.logoAltText": "Tablero de edX, Inc.",
@@ -145,8 +145,8 @@
   "learner-dash.courseCard.banners.credit.requestCredit": "Solicitar crédito",
   "learner-dash.courseCard.banners.credit.viewCredit": "Ver crédito",
   "learner-dash.courseCard.banners.credit.viewDetails": "Ver detalles",
-  "learnerVariantDashboard.menu.resumeLastWorkshop.bw.label": "Reanudar tu último taller",
+  "learnerVariantDashboard.menu.resumeLastWorkshop.bw.label": "Reanudar su último taller",
   "learnerVariantDashboard.menu.goBackToBlueWave.bw.label": "Regresar a Blue Wave",
   "learnerVariantDashboard.menu.administrationPanel.bw.label": "Panel de administración",
-  "learnerVariantDashboard.menu.goToStudio.bw.label": "Ir a Studio"
+  "learnerVariantDashboard.menu.goToStudio.bw.label": "Ir al Estudio"
 }
