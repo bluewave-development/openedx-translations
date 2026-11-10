@@ -79,15 +79,15 @@
   },
   "pgn.DataTable.FilterStatus.clearFiltersText": {
     "developer_comment": "",
-    "string": ""
+    "string": "Limpiar filtros"
   },
   "pgn.DataTable.RowStatus.statusText": {
     "developer_comment": "",
-    "string": ""
+    "string": "Mostrando {firstRow} - {lastRow} de {itemCount}."
   },
   "pgn.DataTable.SidebarFilters.title": {
     "developer_comment": "",
-    "string": ""
+    "string": "Filtros"
   },
   "pgn.DataTable.filtersDropdownTitle": {
     "developer_comment": "Título del menú desplegable de filtros",

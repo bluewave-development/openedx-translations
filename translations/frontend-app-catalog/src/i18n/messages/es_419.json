@@ -10,7 +10,7 @@
   "category.catalog.no-results-found": "No se han encontrado resultados",
   "category.catalog.filter.organizations": "Organizaciones",
   "category.catalog.filter.languages": "Idiomas",
-  "category.catalog.filter.course-types": "Tipos de curso",
+  "category.catalog.filter.course-types": "Tipos de taller",
   "catalog.course-about.view-about-page-in-studio": "Ver la Página De Introducción Al Curso en Studio",
   "category.header.dashboard.label": "Panel de Control",
   "category.header.help.label": "Ayuda",
@@ -57,5 +57,10 @@
   "catalog.home-page.video-button-alt": "botón de búsqueda",
   "courseAbout.page.title": "{courseName} | {siteName}",
   "courses.page.title": "Cursos | {siteName}",
-  "home.page.title": "Catálogo | {siteName}"
+  "home.page.title": "Catálogo | {siteName}",
+  "pgn.DataTable.RowStatus.statusText": "Mostrando {firstRow} - {lastRow} de {itemCount}.",
+  "pgn.DataTable.SidebarFilters.title": "Filtros",
+  "pgn.DataTable.FilterStatus.clearFiltersText": "Limpiar filtros",
+  "pgn.DataTable.filtersDropdownTitle": "Filtros",
+  "pgn.DataTable.paginationLabel": "paginación de tabla"
 }
