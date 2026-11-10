@@ -52,6 +52,7 @@
   "catalog.home-page.title": "Blue Wave Academy",
   "catalog.home-page.subtitle": "",
   "catalog.home-page.search-placeholder": "Buscar taller",
+  "catalog.home-page.search-button": "Buscar",
   "catalog.home-page.video-button": "Ver video promocional",
   "catalog.home-page.video-button-alt": "botón de búsqueda",
   "courseAbout.page.title": "{courseName} | {siteName}",
