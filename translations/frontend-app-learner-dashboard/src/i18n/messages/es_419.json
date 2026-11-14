@@ -69,7 +69,7 @@
   "learner-dash.unenrollConfirm.reasons.custom-placeholder": "Otro",
   "learner-dash.unenrollConfirm.reasons.prefer-not-to-say": "Prefiero no decirlo",
   "WidgetSidebar.lookingForChallengePrompt": "¿Buscando un nuevo reto?",
-  "WidgetSidebar.findCoursesButton": "Encuentra un curso {arrow}",
+  "WidgetSidebar.findCoursesButton": "Encuentra un taller {arrow}",
   "Dashboard.NoCoursesView.lookingForChallengePrompt": "¿Buscando un nuevo reto?",
   "Dashboard.NoCoursesView.exploreCoursesPrompt": "Explore nuestros cursos para agregarlos a su tablero.",
   "Dashboard.NoCoursesView.exploreCoursesButton": "Explorar cursos",
