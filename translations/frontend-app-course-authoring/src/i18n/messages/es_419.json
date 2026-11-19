@@ -139,7 +139,7 @@
   "course-authoring.course-outline.button.section-modal.title": "Seleccionar sección",
   "course-authoring.course-rerun.title": "Crear una repetición de",
   "course-authoring.course-rerun.actions.button.cancel": "Cancelar",
-  "course-authoring.course-team.headingTitle": "Equipo del curso",
+  "course-authoring.course-team.headingTitle": "Equipo del Taller",
   "course-authoring.course-team.subTitle": "Configuración",
   "course-authoring.course-team.button.new-team-member": "Nuevo miembro del equipo",
   "course-authoring.course-unit.general.alert.error.description": "No se puede {actionName} {type} . Inténtalo de nuevo.",
@@ -2768,5 +2768,6 @@
   "course-authoring.pages-resources.app-settings-modal.reset-all-units": "Restablecer any las unidades",
   "course-authoring.pages-resources.app-settings-modal.reset-all-units-tooltip.checked": "Restablezca inmediatamente cualquier cambio a nivel de unidad y marque \"Habilitar resúmenes\" en todas las unidades.",
   "course-authoring.pages-resources.app-settings-modal.reset-all-units-tooltip.unchecked": "Restablezca inmediatamente cualquier cambio a nivel de unidad y desmarque \"Habilitar resúmenes\" en todas las unidades.",
-  "course-authoring.pages-resources.app-settings-modal.reset": "Reiniciar"
+  "course-authoring.pages-resources.app-settings-modal.reset": "Reiniciar",
+  "course-authoring.course-team.sectionNotAvailable.bw": "Actualmente esta sección no está disponible, si desea registrar un instructor, comuníquese con un administrador para realizar la solicitud."
 }
