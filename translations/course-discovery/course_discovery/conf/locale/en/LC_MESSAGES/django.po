@@ -32,7 +32,7 @@ msgstr ""
 
 #: apps/api/serializers.py:850
 msgid "Number of courses contained in this catalog"
-msgstr ""
+msgstr "Number of workshops contained in this catalog"
 
 #: apps/api/serializers.py:853
 msgid "Usernames of users with explicit access to view this catalog"
@@ -48,11 +48,11 @@ msgstr ""
 
 #: apps/api/serializers.py:1048
 msgid "Language in which the course is administered"
-msgstr ""
+msgstr "Language in which the workshop is administered"
 
 #: apps/api/serializers.py:1152
 msgid "Course cannot be changed for an existing course run"
-msgstr ""
+msgstr "Workshop cannot be changed for an existing workshop run"
 
 #: apps/api/serializers.py:1157
 msgid "Minimum effort cannot be greater than Maximum effort"
@@ -64,7 +64,7 @@ msgstr ""
 
 #: apps/api/serializers.py:1205
 msgid "Dictionary mapping course run IDs to boolean values"
-msgstr ""
+msgstr "Dictionary mapping workshop run IDs to boolean values"
 
 #: apps/api/serializers.py:1309
 msgid "Restriction Type cannot be empty"
@@ -72,23 +72,23 @@ msgstr ""
 
 #: apps/api/serializers.py:1775
 msgid "Dictionary mapping course IDs to boolean values"
-msgstr ""
+msgstr "Dictionary mapping workshop IDs to boolean values"
 
 #: apps/api/serializers.py:2242
 msgid "Languages that course runs in this program are offered in."
-msgstr ""
+msgstr "Languages that workshop runs in this program are offered in."
 
 #: apps/api/serializers.py:2246
 msgid ""
 "Languages that course runs in this program have available transcripts in."
-msgstr ""
+msgstr "Languages that workshop runs in this program have available transcripts in."
 
 #: apps/api/utils.py:346
 #, python-brace-format
 msgid ""
 "An error occurred while setting the course run image for [{key}] in studio. "
 "All other fields were successfully saved in Studio."
-msgstr ""
+msgstr "An error occurred while setting the workshop run image for [{key}] in studio. All other fields were successfully saved in Studio."
 
 #: apps/api/v1/exceptions.py:13
 msgid "Specifying both editable=1 and a q parameter is not supported."
@@ -109,7 +109,7 @@ msgstr ""
 
 #: apps/api/v1/views/course_runs.py:49
 msgid "Failed to set course run data: {}"
-msgstr ""
+msgstr "Failed to set workshop run data: {}"
 
 #: apps/api/v1/views/course_runs.py:328
 msgid "Can only update status, ofac restrictions, and ofac comment"
@@ -120,11 +120,11 @@ msgstr ""
 msgid ""
 "The course run type '{course_run_type}' is not valid for this course type "
 "'{course_type}'."
-msgstr ""
+msgstr "The workshop run type '{course_run_type}' is not valid for this workshop type '{course_type}'."
 
 #: apps/api/v1/views/course_runs.py:381
 msgid "Course run is in review. Editing disabled."
-msgstr ""
+msgstr "Workshop run is in review. Editing disabled."
 
 #: apps/api/v1/views/course_runs.py:388
 msgid "Invalid parameter"
@@ -142,7 +142,7 @@ msgstr ""
 #: apps/api/v1/views/courses.py:209
 #, python-brace-format
 msgid "Course Type [{course_type}] does not exist. "
-msgstr ""
+msgstr "Workshop Type [{course_type}] does not exist. "
 
 #: apps/api/v1/views/courses.py:212
 #, python-brace-format
@@ -152,14 +152,14 @@ msgstr ""
 #: apps/api/v1/views/courses.py:229
 #, python-brace-format
 msgid "A course with key [{key}] already exists."
-msgstr ""
+msgstr "A workshop with key [{key}] already exists."
 
 #: apps/api/v1/views/courses.py:237
 #, python-brace-format
 msgid ""
 "Course creation was unsuccessful. The course URL slug ‘[{url_slug}]’ is "
 "already in use. Please update this field and try again."
-msgstr ""
+msgstr "Workshop creation was unsuccessful. The workshop URL slug ‘[{url_slug}]’ is already in use. Please update this field and try again."
 
 #: apps/api/v1/views/courses.py:298
 msgid ""
@@ -172,7 +172,7 @@ msgstr ""
 msgid ""
 "Course edit was unsuccessful. The course URL slug ‘[{url_slug}]’ is already "
 "in use. Please update this field and try again."
-msgstr ""
+msgstr "Workshop edit was unsuccessful. The workshop URL slug ‘[{url_slug}]’ is already in use. Please update this field and try again."
 
 #: apps/api/views.py:58
 msgid "You are not permitted to access the API documentation."
@@ -184,7 +184,7 @@ msgstr ""
 
 #: apps/catalogs/models.py:18
 msgid "Query to retrieve Course Run catalog contents"
-msgstr ""
+msgstr "Query to retrieve Workshop Run catalog contents"
 
 #: apps/catalogs/models.py:22
 msgid "Query to retrieve Program catalog contents"
@@ -192,7 +192,7 @@ msgstr ""
 
 #: apps/catalogs/models.py:25
 msgid "Include archived courses"
-msgstr ""
+msgstr "Include archived workshops"
 
 #: apps/core/admin.py:17
 msgid "Personal info"
@@ -270,11 +270,11 @@ msgstr ""
 
 #: apps/core/models.py:56
 msgid "Courses API URL"
-msgstr ""
+msgstr "Workshops API URL"
 
 #: apps/core/models.py:59
 msgid "Course Mode API URL"
-msgstr ""
+msgstr "Workshop Mode API URL"
 
 #: apps/core/models.py:60
 msgid "E-Commerce API URL"
@@ -393,7 +393,7 @@ msgstr ""
 
 #: apps/course_metadata/admin.py:538 apps/course_metadata/admin.py:883
 msgid "Included course runs"
-msgstr ""
+msgstr "Included workshop runs"
 
 #: apps/course_metadata/admin.py:889
 msgid "Edit link"
@@ -401,7 +401,7 @@ msgstr ""
 
 #: apps/course_metadata/admin.py:897
 msgid "Edit course run exclusions"
-msgstr ""
+msgstr "Edit workshop run exclusions"
 
 #: apps/course_metadata/admin.py:899
 msgid "(save and continue editing to create a link)"
@@ -519,7 +519,7 @@ msgstr ""
 
 #: apps/course_metadata/choices.py:54
 msgid "Course Create"
-msgstr ""
+msgstr "Workshop Create"
 
 #: apps/course_metadata/choices.py:55
 msgid "Partial Update"
@@ -527,11 +527,11 @@ msgstr ""
 
 #: apps/course_metadata/choices.py:56
 msgid "Course Rerun"
-msgstr ""
+msgstr "Workshop Rerun"
 
 #: apps/course_metadata/choices.py:57
 msgid "Course Editor Update"
-msgstr ""
+msgstr "Workshop Editor Update"
 
 #: apps/course_metadata/choices.py:64
 msgid "Pending"
@@ -615,7 +615,7 @@ msgstr ""
 
 #: apps/course_metadata/choices.py:108
 msgid "Short Course"
-msgstr ""
+msgstr "Short Workshop"
 
 #: apps/course_metadata/choices.py:109
 msgid "Sprint"
@@ -623,7 +623,7 @@ msgstr ""
 
 #: apps/course_metadata/choices.py:110
 msgid "Course Stack"
-msgstr ""
+msgstr "Workshop Stack"
 
 #: apps/course_metadata/choices.py:114
 msgid "Custom B2B Enterprise"
@@ -638,14 +638,14 @@ msgstr ""
 msgid ""
 "Existing course type {type} for {key} ({id}) doesn't match its own "
 "entitlements."
-msgstr ""
+msgstr "Existing workshop type {type} for {key} ({id}) doesn't match its own entitlements."
 
 #: apps/course_metadata/data_loaders/course_type.py:61
 #, python-brace-format
 msgid ""
 "Existing run type {run_type} for {key} ({id}) doesn't match course type "
 "{type}.Skipping type."
-msgstr ""
+msgstr "Existing run type {run_type} for {key} ({id}) doesn't match workshop type {type}.Skipping type."
 
 #: apps/course_metadata/data_loaders/course_type.py:75
 #, python-brace-format
@@ -656,19 +656,19 @@ msgstr ""
 #: apps/course_metadata/data_loaders/course_type.py:91
 #, python-brace-format
 msgid "Course {key} ({id}) matched type {type}"
-msgstr ""
+msgstr "Workshop {key} ({id}) matched type {type}"
 
 #: apps/course_metadata/data_loaders/course_type.py:101
 #, python-brace-format
 msgid "Could not convert course {key} ({id}) to type {type}"
-msgstr ""
+msgstr "Could not convert workshop {key} ({id}) to type {type}"
 
 #: apps/course_metadata/emails.py:37
 #, python-brace-format
 msgid ""
 "Not sending notification email for template {template} because no "
 "organization is defined for course {course}"
-msgstr ""
+msgstr "Not sending notification email for template {template} because no organization is defined for workshop {course}"
 
 #: apps/course_metadata/emails.py:42
 #, python-brace-format
@@ -701,7 +701,7 @@ msgstr ""
 
 #: apps/course_metadata/emails.py:212
 msgid "course team"
-msgstr ""
+msgstr "workshop team"
 
 #: apps/course_metadata/emails.py:221
 #, python-brace-format
@@ -711,7 +711,7 @@ msgstr ""
 #: apps/course_metadata/emails.py:234
 #, python-brace-format
 msgid "Course URL for {title}"
-msgstr ""
+msgstr "Workshop URL for {title}"
 
 #: apps/course_metadata/emails.py:280
 #, python-brace-format
@@ -751,11 +751,11 @@ msgstr ""
 
 #: apps/course_metadata/management/commands/add_tag_to_courses.py:15
 msgid "Tag to add to courses"
-msgstr ""
+msgstr "Tag to add to workshops"
 
 #: apps/course_metadata/management/commands/add_tag_to_courses.py:16
 msgid "UUIDs of courses to tag"
-msgstr ""
+msgstr "UUIDs of workshops to tag"
 
 #: apps/course_metadata/management/commands/add_tag_to_courses.py:18
 msgid ""
@@ -794,7 +794,7 @@ msgstr ""
 
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:22
 msgid "Course to backpopulate."
-msgstr ""
+msgstr "Workshop to backpopulate."
 
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:27
 msgid "KEY"
@@ -808,7 +808,7 @@ msgstr ""
 msgid ""
 "CourseType/CourseRunType mismatches to allow. Specify like course-type-slug:"
 "run-type-slug."
-msgstr ""
+msgstr "CourseType/CourseRunType mismatches to allow. Specify like workshop-type-slug:run-type-slug."
 
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:41
 #: apps/course_metadata/management/commands/delete_person_dups.py:38
@@ -828,22 +828,22 @@ msgstr ""
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:71
 #, python-brace-format
 msgid "Supplied Course Run Type slug [{rt_slug}] does not exist."
-msgstr ""
+msgstr "Supplied Workshop Run Type slug [{rt_slug}] does not exist."
 
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:78
 #, python-brace-format
 msgid "Supplied Course Type slug [{ct_slug}] does not exist."
-msgstr ""
+msgstr "Supplied Workshop Type slug [{ct_slug}] does not exist."
 
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:89
 msgid "No courses found. Did you specify an argument?"
-msgstr ""
+msgstr "No workshops found. Did you specify an argument?"
 
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:101
 #, python-brace-format
 msgid ""
 "Could not backpopulate a course type for the following courses: {course_keys}"
-msgstr ""
+msgstr "Could not backpopulate a workshop type for the following workshops: {course_keys}"
 
 #: apps/course_metadata/management/commands/delete_person_dups.py:21
 msgid "Delete duplicate persons in course_metadata."
@@ -897,7 +897,7 @@ msgstr ""
 
 #: apps/course_metadata/management/commands/delete_person_dups.py:89
 msgid "Course Runs"
-msgstr ""
+msgstr "Workshop Runs"
 
 #: apps/course_metadata/management/commands/delete_person_dups.py:90
 msgid "Target"
@@ -914,7 +914,7 @@ msgstr ""
 #: apps/course_metadata/management/commands/publish_live_course_runs.py:23
 #, python-brace-format
 msgid "Publishing course run {key}"
-msgstr ""
+msgstr "Publishing workshop run {key}"
 
 #: apps/course_metadata/management/commands/publish_live_course_runs.py:28
 #, python-brace-format
@@ -928,11 +928,11 @@ msgstr ""
 
 #: apps/course_metadata/management/commands/publish_live_course_runs.py:34
 msgid "One or more course runs failed to publish."
-msgstr ""
+msgstr "One or more workshop runs failed to publish."
 
 #: apps/course_metadata/management/commands/remove_redirects_from_courses.py:22
 msgid "Remove all redirects to all courses"
-msgstr ""
+msgstr "Remove all redirects to all workshops"
 
 #: apps/course_metadata/management/commands/remove_redirects_from_courses.py:23
 msgid "Redirects to remove"
@@ -956,7 +956,7 @@ msgstr ""
 #: apps/course_metadata/management/commands/remove_redirects_from_courses.py:60
 #, python-brace-format
 msgid "Path /course/{url_slug} not in use, nothing to delete"
-msgstr ""
+msgstr "Path /workshop/{url_slug} not in use, nothing to delete"
 
 #: apps/course_metadata/management/commands/remove_redirects_from_courses.py:65
 #, python-brace-format
@@ -965,23 +965,23 @@ msgstr ""
 
 #: apps/course_metadata/management/commands/unpublish_inactive_runs.py:44
 msgid "One or more courses failed to unpublish."
-msgstr ""
+msgstr "One or more workshops failed to unpublish."
 
 #: apps/course_metadata/management/commands/unpublish_inactive_runs.py:50
 #, python-brace-format
 msgid "Successfully unpublished runs in course {key}"
-msgstr ""
+msgstr "Successfully unpublished runs in workshop {key}"
 
 #: apps/course_metadata/management/commands/unpublish_inactive_runs.py:53
 #, python-brace-format
 msgid "Failed to unpublish runs in course {key}"
-msgstr ""
+msgstr "Failed to unpublish runs in workshop {key}"
 
 #: apps/course_metadata/models.py:239
 msgid ""
 "Please do not use any spaces or special characters other than period, "
 "underscore or hyphen. This key will be used in the course's course key."
-msgstr ""
+msgstr "Please do not use any spaces or special characters other than period, underscore or hyphen. This key will be used in the workshop's workshop key."
 
 #: apps/course_metadata/models.py:244
 msgid "If populated, this field will overwrite name in platform."
@@ -1006,19 +1006,19 @@ msgstr ""
 
 #: apps/course_metadata/models.py:279
 msgid "Automatically generate course run keys"
-msgstr ""
+msgstr "Automatically generate workshop run keys"
 
 #: apps/course_metadata/models.py:281
 msgid ""
 "When this flag is enabled, the key of a new course run will be auto "
 "generated.  When this flag is disabled, the key can be manually set."
-msgstr ""
+msgstr "When this flag is enabled, the key of a new workshop run will be auto generated.  When this flag is disabled, the key can be manually set."
 
 #: apps/course_metadata/models.py:287
 msgid ""
 "This field signifies if any of this org's courses are in the enterprise "
 "subscription catalog"
-msgstr ""
+msgstr "This field signifies if any of this org's workshops are in the enterprise subscription catalog"
 
 #: apps/course_metadata/models.py:290
 msgid ""
@@ -1027,6 +1027,9 @@ msgid ""
 "as theme color.\n"
 "            (e.g. \"#ff0000\" which equals red) No need to provide the `#`"
 msgstr ""
+"The 6 character-hex-value of the orgnization theme color,\n"
+"            all related workshop under same organization will use this color as theme color.\n"
+"            (e.g. \"#ff0000\" which equals red) No need to provide the `#`"
 
 #: apps/course_metadata/models.py:306
 msgid "The timestamp of the last time the organization data was modified."
@@ -1052,7 +1055,7 @@ msgid ""
 "completing associated courses, but enrolled in other seat types, will NOT "
 "have their completion of the course counted toward the completion of the "
 "program."
-msgstr ""
+msgstr "Seat types that qualify for completion of programs of this type. Learners completing associated workshops, but enrolled in other seat types, will NOT have their completion of the workshop counted toward the completion of the program."
 
 #: apps/course_metadata/models.py:489
 msgid "Please provide an image file with transparent background"
@@ -1098,17 +1101,17 @@ msgstr ""
 msgid ""
 "Who gets paid for the course? Platform is the site owner, Organization is "
 "the school."
-msgstr ""
+msgstr "Who gets paid for the workshop? Platform is the site owner, Organization is the school."
 
 #: apps/course_metadata/models.py:679
 msgid "Sets the order for displaying Course Run Types."
-msgstr ""
+msgstr "Sets the order for displaying Workshop Run Types."
 
 #: apps/course_metadata/models.py:682
 msgid ""
 "Leave this blank to allow all orgs. Otherwise, specifies which orgs can see "
 "this course type in Publisher."
-msgstr ""
+msgstr "Leave this blank to allow all orgs. Otherwise, specifies which orgs can see this workshop type in Publisher."
 
 #: apps/course_metadata/models.py:732
 msgid "Subject model translations"
@@ -1144,11 +1147,11 @@ msgstr ""
 
 #: apps/course_metadata/models.py:950
 msgid "The start date of the external course offering for marketing purpose"
-msgstr ""
+msgstr "The start date of the external workshop offering for marketing purpose"
 
 #: apps/course_metadata/models.py:954
 msgid "The ends date of the external course offering for marketing purpose"
-msgstr ""
+msgstr "The ends date of the external workshop offering for marketing purpose"
 
 #: apps/course_metadata/models.py:958
 msgid "The suggested deadline for enrollment for marketing purpose"
@@ -1160,22 +1163,22 @@ msgstr ""
 
 #: apps/course_metadata/models.py:966
 msgid "Course override"
-msgstr ""
+msgstr "Workshop override"
 
 #: apps/course_metadata/models.py:967
 msgid "This field allows for override the default course term"
-msgstr ""
+msgstr "This field allows for override the default workshop term"
 
 #: apps/course_metadata/models.py:993
 msgid ""
 "This field contain external course marketing type specific to product lines"
-msgstr ""
+msgstr "This field contain external workshop marketing type specific to product lines"
 
 #: apps/course_metadata/models.py:1002
 msgid ""
 "Determines weather the course should be displayed on the owning "
 "organization's page"
-msgstr ""
+msgstr "Determines weather the workshop should be displayed on the owning organization's page"
 
 #: apps/course_metadata/models.py:1073
 msgid "A list of major works by this person. Must be valid HTML."
@@ -1242,17 +1245,17 @@ msgstr ""
 msgid ""
 "When making reruns for this course, they will use this key instead of the "
 "course key."
-msgstr ""
+msgstr "When making reruns for this workshop, they will use this key instead of the workshop key."
 
 #: apps/course_metadata/models.py:1477
 msgid ""
 "The actual duration of this course as experienced by learners who complete "
 "it."
-msgstr ""
+msgstr "The actual duration of this workshop as experienced by learners who complete it."
 
 #: apps/course_metadata/models.py:1498
 msgid "Add the course image"
-msgstr ""
+msgstr "Add the workshop image"
 
 #: apps/course_metadata/models.py:1501 apps/course_metadata/models.py:3358
 msgid "FAQ"
@@ -1260,17 +1263,17 @@ msgstr ""
 
 #: apps/course_metadata/models.py:1504
 msgid "Total number of learners who have enrolled in this course"
-msgstr ""
+msgstr "Total number of learners who have enrolled in this workshop"
 
 #: apps/course_metadata/models.py:1509
 msgid ""
 "Total number of learners who have enrolled in this course in the last 6 "
 "months"
-msgstr ""
+msgstr "Total number of learners who have enrolled in this workshop in the last 6 months"
 
 #: apps/course_metadata/models.py:1523
 msgid "Course number format e.g CS002x, BIO1.1x, BIO1.2x"
-msgstr ""
+msgstr "Workshop number format e.g CS002x, BIO1.1x, BIO1.2x"
 
 #: apps/course_metadata/models.py:1537
 msgid "Additional Information"
@@ -1278,12 +1281,12 @@ msgstr ""
 
 #: apps/course_metadata/models.py:1559
 msgid "The last time this course was modified in the database."
-msgstr ""
+msgstr "The last time this workshop was modified in the database."
 
 #: apps/course_metadata/models.py:1564
 msgid ""
 "This field signifies if this course is in the enterprise subscription catalog"
-msgstr ""
+msgstr "This field signifies if this workshop is in the enterprise subscription catalog"
 
 #: apps/course_metadata/models.py:1572 apps/course_metadata/models.py:3517
 msgid ""
@@ -1303,7 +1306,7 @@ msgstr ""
 msgid ""
 "The list of email addresses that will be notified if any of the course runs "
 "is published or scheduled."
-msgstr ""
+msgstr "The list of email addresses that will be notified if any of the workshop runs is published or scheduled."
 
 #: apps/course_metadata/models.py:1832
 msgid "Future"
@@ -1325,33 +1328,33 @@ msgstr ""
 msgid ""
 "Title specific for this run of a course. Leave this value blank to default "
 "to the parent course's title."
-msgstr ""
+msgstr "Title specific for this run of a workshop. Leave this value blank to default to the parent workshop's title."
 
 #: apps/course_metadata/models.py:2307
 msgid ""
 "Short description specific for this run of a course. Leave this value blank "
 "to default to the parent course's short_description attribute."
-msgstr ""
+msgstr "Short description specific for this run of a workshop. Leave this value blank to default to the parent workshop's short_description attribute."
 
 #: apps/course_metadata/models.py:2311
 msgid ""
 "Full description specific for this run of a course. Leave this value blank "
 "to default to the parent course's full_description attribute."
-msgstr ""
+msgstr "Full description specific for this run of a workshop. Leave this value blank to default to the parent workshop's full_description attribute."
 
 #: apps/course_metadata/models.py:2316
 msgid ""
 "Estimated minimum number of hours per week needed to complete a course run."
-msgstr ""
+msgstr "Estimated minimum number of hours per week needed to complete a workshop run."
 
 #: apps/course_metadata/models.py:2319
 msgid ""
 "Estimated maximum number of hours per week needed to complete a course run."
-msgstr ""
+msgstr "Estimated maximum number of hours per week needed to complete a workshop run."
 
 #: apps/course_metadata/models.py:2322
 msgid "Estimated number of weeks needed to complete this course run."
-msgstr ""
+msgstr "Estimated number of weeks needed to complete this workshop run."
 
 #: apps/course_metadata/models.py:2329
 msgid ""
@@ -1362,30 +1365,30 @@ msgstr ""
 
 #: apps/course_metadata/models.py:2336
 msgid "Total number of learners who have enrolled in this course run"
-msgstr ""
+msgstr "Total number of learners who have enrolled in this workshop run"
 
 #: apps/course_metadata/models.py:2340
 msgid ""
 "Total number of learners who have enrolled in this course run in the last 6 "
 "months"
-msgstr ""
+msgstr "Total number of learners who have enrolled in this workshop run in the last 6 months"
 
 #: apps/course_metadata/models.py:2353
 msgid ""
 "Whether this run should be hidden from API responses.  Do not edit here - "
 "this value will be overwritten by the \"Course Visibility In Catalog\" field "
 "in Studio via Refresh Course Metadata."
-msgstr ""
+msgstr "Whether this run should be hidden from API responses.  Do not edit here - this value will be overwritten by the \"Workshop Visibility In Catalog\" field in Studio via Refresh Workshop Metadata."
 
 #: apps/course_metadata/models.py:2359
 msgid "Indicates whether the course relation has been manually overridden."
-msgstr ""
+msgstr "Indicates whether the workshop relation has been manually overridden."
 
 #: apps/course_metadata/models.py:2366
 msgid ""
 "'What You Will Learn' description for this particular course run. Leave this "
 "value blank to default to the parent course's Outcome attribute."
-msgstr ""
+msgstr "'What You Will Learn' description for this particular workshop run. Leave this value blank to default to the parent workshop's Outcome attribute."
 
 #: apps/course_metadata/models.py:2379 apps/course_metadata/models.py:3553
 msgid "Add OFAC restriction text to the FAQ section of the Marketing site"
@@ -1395,13 +1398,13 @@ msgstr ""
 msgid ""
 "This calculated field signifies if this course run is in the enterprise "
 "subscription catalog"
-msgstr ""
+msgstr "This calculated field signifies if this workshop run is in the enterprise subscription catalog"
 
 #: apps/course_metadata/models.py:2405
 msgid ""
 "The identifier for a product variant. This is used to link a course run to a "
 "product variant for external LOBs (i.e; ExecEd & Bootcamps)."
-msgstr ""
+msgstr "The identifier for a product variant. This is used to link a workshop run to a product variant for external LOBs (i.e; ExecEd & Bootcamps)."
 
 #: apps/course_metadata/models.py:2753 apps/course_metadata/models.py:2766
 msgid "Current"
@@ -1457,13 +1460,13 @@ msgstr ""
 msgid ""
 "If this box is not checked, courses will be ordered as in the courses select "
 "box above."
-msgstr ""
+msgstr "If this box is not checked, workshops will be ordered as in the workshops select box above."
 
 #: apps/course_metadata/models.py:3408
 msgid ""
 "This field is now deprecated (ECOM-6021).Estimated number of weeks needed to "
 "complete a course run belonging to this program."
-msgstr ""
+msgstr "This field is now deprecated (ECOM-6021).Estimated number of weeks needed to complete a workshop run belonging to this program."
 
 #: apps/course_metadata/models.py:3434
 msgid "DEPRECATED: Use the card image field"
@@ -1474,15 +1477,15 @@ msgid ""
 "This field can be used by API clients to determine the order in which "
 "instructors will be displayed on program pages. Instructors in this list "
 "should appear before all others associated with this programs courses runs."
-msgstr ""
+msgstr "This field can be used by API clients to determine the order in which instructors will be displayed on program pages. Instructors in this list should appear before all others associated with this programs workshops runs."
 
 #: apps/course_metadata/models.py:3452
 msgid "The description of credit redemption for courses in program"
-msgstr ""
+msgstr "The description of credit redemption for workshops in program"
 
 #: apps/course_metadata/models.py:3457
 msgid "Allow courses in this program to be purchased in a single transaction"
-msgstr ""
+msgstr "Allow workshops in this program to be purchased in a single transaction"
 
 #: apps/course_metadata/models.py:3461
 msgid ""
@@ -1492,13 +1495,13 @@ msgstr ""
 
 #: apps/course_metadata/models.py:3464
 msgid "Total number of learners who have enrolled in courses this program"
-msgstr ""
+msgstr "Total number of learners who have enrolled in workshops this program"
 
 #: apps/course_metadata/models.py:3469
 msgid ""
 "Total number of learners who have enrolled in courses in this program in the "
 "last 6 months"
-msgstr ""
+msgstr "Total number of learners who have enrolled in workshops in this program in the last 6 months"
 
 #: apps/course_metadata/models.py:3474
 msgid ""
@@ -1510,7 +1513,7 @@ msgstr ""
 msgid ""
 "This calculated field signifies if all the courses in this program are "
 "included in the enterprise subscription catalog "
-msgstr ""
+msgstr "This calculated field signifies if all the workshops in this program are included in the enterprise subscription catalog "
 
 #: apps/course_metadata/models.py:3482
 msgid ""
@@ -1525,19 +1528,19 @@ msgstr ""
 msgid ""
 "Primary subject field specific for this program. Useful field in case there "
 "are no courses associated with this program."
-msgstr ""
+msgstr "Primary subject field specific for this program. Useful field in case there are no workshops associated with this program."
 
 #: apps/course_metadata/models.py:3498
 msgid ""
 "Level type specific for this program. Useful field in case there are no "
 "courses associated with this program."
-msgstr ""
+msgstr "Level type specific for this program. Useful field in case there are no workshops associated with this program."
 
 #: apps/course_metadata/models.py:3503
 msgid ""
 "Language code specific for this program. Useful field in case there are no "
 "courses associated with this program."
-msgstr ""
+msgstr "Language code specific for this program. Useful field in case there are no workshops associated with this program."
 
 #: apps/course_metadata/models.py:3537
 msgid ""
@@ -1645,7 +1648,7 @@ msgstr ""
 
 #: apps/course_metadata/models.py:4205
 msgid "Number of courses for search card (e.g. \"11 Courses\""
-msgstr ""
+msgstr "Number of workshops for search card (e.g. \"11 Workshops\""
 
 #: apps/course_metadata/models.py:4213
 msgid ""
@@ -1786,14 +1789,14 @@ msgstr ""
 msgid ""
 "Partner {partner_key} and course partner {course_partner_key} do not match "
 "when attempting to save url slug {url_slug}"
-msgstr ""
+msgstr "Partner {partner_key} and workshop partner {course_partner_key} do not match when attempting to save url slug {url_slug}"
 
 #: apps/course_metadata/models.py:4705
 #, python-brace-format
 msgid ""
 "Partner {partner_key} and course partner {course_partner_key} do not match "
 "when attempting to save url redirect {url_path}"
-msgstr ""
+msgstr "Partner {partner_key} and workshop partner {course_partner_key} do not match when attempting to save url redirect {url_path}"
 
 #: apps/course_metadata/models.py:4726
 msgid "It expects the data will be provided in a csv file format "
@@ -1801,7 +1804,7 @@ msgstr ""
 
 #: apps/course_metadata/models.py:4738
 msgid "A csv file containing uuid of the courses to be archived"
-msgstr ""
+msgstr "A csv file containing uuid of the workshops to be archived"
 
 #: apps/course_metadata/models.py:4752 apps/course_metadata/models.py:4765
 #: apps/course_metadata/models.py:4778 apps/course_metadata/models.py:4813
@@ -1815,11 +1818,11 @@ msgstr ""
 
 #: apps/course_metadata/models.py:4837
 msgid "Open Courses"
-msgstr ""
+msgstr "Open Workshops"
 
 #: apps/course_metadata/models.py:4838
 msgid "2U Executive Education Courses"
-msgstr ""
+msgstr "2U Executive Education Workshops"
 
 #: apps/course_metadata/models.py:4839
 msgid "Bootcamps"
@@ -1827,11 +1830,11 @@ msgstr ""
 
 #: apps/course_metadata/models.py:4850 apps/course_metadata/models.py:4954
 msgid "Course UUIDs"
-msgstr ""
+msgstr "Workshop UUIDs"
 
 #: apps/course_metadata/models.py:4930
 msgid "Course Run IDs"
-msgstr ""
+msgstr "Workshop Run IDs"
 
 #: apps/course_metadata/models.py:4946
 msgid "Profile Image UUIDs"
@@ -1851,11 +1854,11 @@ msgstr ""
 
 #: apps/course_metadata/models.py:4978
 msgid "Add redirects from all published course url slugs"
-msgstr ""
+msgstr "Add redirects from all published workshop url slugs"
 
 #: apps/course_metadata/models.py:4979 apps/taxonomy_support/models.py:55
 msgid "Course uuids"
-msgstr ""
+msgstr "Workshop uuids"
 
 #: apps/course_metadata/models.py:5044
 msgid "User who uploaded the file"
@@ -1903,7 +1906,7 @@ msgstr ""
 
 #: apps/course_metadata/templates/admin/course_metadata/course_run.html:29
 msgid "Save Course Run"
-msgstr ""
+msgstr "Save Workshop Run"
 
 #: apps/course_metadata/templates/admin/course_metadata/course_skills.html:11
 #: apps/course_metadata/templates/admin/course_metadata/refresh_course_skills.html:7
@@ -1913,12 +1916,12 @@ msgstr ""
 
 #: apps/course_metadata/templates/admin/course_metadata/course_skills.html:26
 msgid "Course Skills"
-msgstr ""
+msgstr "Workshop Skills"
 
 #: apps/course_metadata/templates/admin/course_metadata/refresh_course_skills.html:22
 #: apps/course_metadata/templates/admin/course_metadata/refresh_course_skills.html:32
 msgid "Refresh Course Skills"
-msgstr ""
+msgstr "Refresh Workshop Skills"
 
 #: apps/course_metadata/templates/admin/course_metadata/refresh_program_skills.html:22
 #: apps/course_metadata/templates/admin/course_metadata/refresh_program_skills.html:32
@@ -1954,7 +1957,7 @@ msgstr ""
 #: apps/course_metadata/templates/course_metadata/email/go_live.html:9
 #: apps/course_metadata/templates/course_metadata/email/go_live.txt:3
 msgid "Hi Course Team,"
-msgstr ""
+msgstr "Hi Workshop Team,"
 
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.html:12
 #, python-format
@@ -1965,6 +1968,9 @@ msgid ""
 "%(days)s on %(course_end_date)s.\n"
 "        "
 msgstr ""
+"\n"
+"        This is an automated reminder that the workshop \"%(course_name)s\" (Workshop Key: %(course_key)s) is scheduled to end in %(days)s on %(course_end_date)s.\n"
+"        "
 
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.html:16
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:16
@@ -1982,36 +1988,39 @@ msgid ""
 "%(course_end_date)s.\n"
 "        "
 msgstr ""
+"\n"
+"        This is an automated reminder that the workshop \"%(course_name)s\" (Workshop Key: %(course_key)s) has officially ended as of %(course_end_date)s.\n"
+"        "
 
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.html:23
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:18
 msgid ""
 "If this was intentional, no action is needed. However, if this course was "
 "meant to remain available, you have two options to restore access:"
-msgstr ""
+msgstr "If this was intentional, no action is needed. However, if this workshop was meant to remain available, you have two options to restore access:"
 
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.html:29
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:21
 msgid ""
 "Extend the current course run’s end date if the same course is meant to "
 "remain available."
-msgstr ""
+msgstr "Extend the current workshop run’s end date if the same workshop is meant to remain available."
 
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.html:31
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:22
 msgid ""
 "Create a new course run if you are planning to offer this course again with "
 "updated content, pacing, or a new cohort of learners."
-msgstr ""
+msgstr "Create a new workshop run if you are planning to offer this workshop again with updated content, pacing, or a new cohort of learners."
 
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.html:32
 msgid "Visit the Course in Publisher"
-msgstr ""
+msgstr "Visit the Workshop in Publisher"
 
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.html:37
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:25
 msgid "You can review and modify the course end settings here:"
-msgstr ""
+msgstr "You can review and modify the workshop end settings here:"
 
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.html:41
 #, python-format
@@ -2024,6 +2033,10 @@ msgid ""
 "after the end date.\n"
 "        "
 msgstr ""
+"\n"
+"        If no action is taken, the workshop will no longer be available for enrollment or access by learners on \n"
+"        <a href=\"%(partner_marketing_site_url)s\">%(partner_marketing_site_url)s</a> after the end date.\n"
+"        "
 
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.html:47
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:34
@@ -2038,6 +2051,8 @@ msgid ""
 "Key: %(course_key)s) is scheduled to end in %(days)s on "
 "%(course_end_date)s.\n"
 msgstr ""
+"\n"
+"This is an automated reminder that the workshop \"%(course_name)s\" (Workshop Key: %(course_key)s) is scheduled to end in %(days)s on %(course_end_date)s.\n"
 
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:10
 #, python-format
@@ -2046,10 +2061,12 @@ msgid ""
 "This is an automated reminder that the course \"%(course_name)s\" (Course "
 "Key: %(course_key)s) has officially ended as of %(course_end_date)s.\n"
 msgstr ""
+"\n"
+"This is an automated reminder that the workshop \"%(course_name)s\" (Workshop Key: %(course_key)s) has officially ended as of %(course_end_date)s.\n"
 
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:23
 msgid "Visit the Course in Publisher:"
-msgstr ""
+msgstr "Visit the Workshop in Publisher:"
 
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:29
 #, python-format
@@ -2058,6 +2075,8 @@ msgid ""
 "If no action is taken, the course will no longer be available for enrollment "
 "or access by learners on %(partner_marketing_site_url)s after the end date.\n"
 msgstr ""
+"\n"
+"If no action is taken, the workshop will no longer be available for enrollment or access by learners on %(partner_marketing_site_url)s after the end date.\n"
 
 #: apps/course_metadata/templates/course_metadata/email/go_live.html:17
 #: apps/course_metadata/templates/course_metadata/email/go_live.txt:7
@@ -2067,7 +2086,7 @@ msgid ""
 "has been submitted for publishing. The new session will appear on the edX "
 "website following the next couple of deployments—typically within 24 to 48 "
 "business hours."
-msgstr ""
+msgstr "The About page for the %(course_run_number)s workshop run of %(course_name)s has been submitted for publishing. The new session will appear on the edX website following the next couple of deployments—typically within 24 to 48 business hours."
 
 #: apps/course_metadata/templates/course_metadata/email/go_live.html:26
 #: apps/course_metadata/templates/course_metadata/email/legal_review.html:23
@@ -2098,21 +2117,21 @@ msgid ""
 "{org_name} has submitted {course_key} for review. {link_start}"
 "{course_page_url}{link_middle}View this course run in Publisher{link_end} to "
 "review the changes and mark it as reviewed."
-msgstr ""
+msgstr "{org_name} has submitted {course_key} for review. {link_start}{course_page_url}{link_middle}View this workshop run in Publisher{link_end} to review the changes and mark it as reviewed."
 
 #: apps/course_metadata/templates/course_metadata/email/internal_review.html:20
 #, python-brace-format
 msgid ""
 "This is a good time to {link_start}{studio_url}{link_middle}review this "
 "course run in Studio{link_end}."
-msgstr ""
+msgstr "This is a good time to {link_start}{studio_url}{link_middle}review this workshop run in Studio{link_end}."
 
 #: apps/course_metadata/templates/course_metadata/email/internal_review.html:27
 #, python-brace-format
 msgid ""
 "Visit the {link_start}{restricted_admin_url}{link_middle}restricted course "
 "admin page{link_end} to set embargo rules for this course, as needed."
-msgstr ""
+msgstr "Visit the {link_start}{restricted_admin_url}{link_middle}restricted workshop admin page{link_end} to set embargo rules for this workshop, as needed."
 
 #: apps/course_metadata/templates/course_metadata/email/internal_review.txt:6
 #, python-format
@@ -2132,7 +2151,7 @@ msgstr ""
 #: apps/course_metadata/templates/course_metadata/email/internal_review.txt:19
 #, python-format
 msgid "Restricted Course admin: %(restricted_admin_url)s"
-msgstr ""
+msgstr "Restricted Workshop admin: %(restricted_admin_url)s"
 
 #: apps/course_metadata/templates/course_metadata/email/legal_review.html:15
 #, python-brace-format
@@ -2140,7 +2159,7 @@ msgid ""
 "{org_name} has submitted {course_name} for review. {link_start}"
 "{course_page_url}{link_middle}View this course run in Publisher{link_end} to "
 "determine OFAC status."
-msgstr ""
+msgstr "{org_name} has submitted {course_name} for review. {link_start}{course_page_url}{link_middle}View this workshop run in Publisher{link_end} to determine OFAC status."
 
 #: apps/course_metadata/templates/course_metadata/email/legal_review.txt:6
 #, python-format
@@ -2149,7 +2168,7 @@ msgstr ""
 
 #: apps/course_metadata/templates/course_metadata/email/legal_review.txt:11
 msgid "View this course run in Publisher above to determine OFAC status."
-msgstr ""
+msgstr "View this workshop run in Publisher above to determine OFAC status."
 
 #: apps/course_metadata/templates/course_metadata/email/legal_review.txt:15
 #: apps/course_metadata/templates/course_metadata/email/reviewed.txt:25
@@ -2164,7 +2183,7 @@ msgid ""
 "The {link_start}{course_page_url}{link_middle}{course_run_number} course "
 "run{link_end} of {course_name} has been reviewed and approved by "
 "{platform_name}."
-msgstr ""
+msgstr "The {link_start}{course_page_url}{link_middle}{course_run_number} workshop run{link_end} of {course_name} has been reviewed and approved by {platform_name}."
 
 #: apps/course_metadata/templates/course_metadata/email/reviewed.html:22
 #: apps/course_metadata/templates/course_metadata/email/reviewed.txt:12
@@ -2172,24 +2191,24 @@ msgstr ""
 msgid ""
 "The course run about page will be published on %(go_live_date)s, pending no "
 "further edits."
-msgstr ""
+msgstr "The workshop run about page will be published on %(go_live_date)s, pending no further edits."
 
 #: apps/course_metadata/templates/course_metadata/email/reviewed.html:28
 #: apps/course_metadata/templates/course_metadata/email/reviewed.txt:16
 msgid "The course run about page is now published."
-msgstr ""
+msgstr "The workshop run about page is now published."
 
 #: apps/course_metadata/templates/course_metadata/email/reviewed.txt:6
 #, python-format
 msgid ""
 "The %(course_run_number)s course run of %(course_name)s has been reviewed "
 "and approved by %(platform_name)s."
-msgstr ""
+msgstr "The %(course_run_number)s workshop run of %(course_name)s has been reviewed and approved by %(platform_name)s."
 
 #: apps/course_metadata/templates/course_metadata/email/reviewed.txt:21
 #, python-format
 msgid "View the course run in Publisher: %(course_page_url)s"
-msgstr ""
+msgstr "View the workshop run in Publisher: %(course_page_url)s"
 
 #: apps/course_metadata/templates/course_metadata/email/watchers_course_url.html:8
 #, python-format
@@ -2200,6 +2219,9 @@ msgid ""
 "href=\"%(course_marketing_url)s\">%(course_marketing_url)s</a>\n"
 "    "
 msgstr ""
+"\n"
+"        Workshop '%(course_name)s' has been successfully reviewed by edX and is now published on %(course_publish_date)s. To see live workshop, go here: <a href=\"%(course_marketing_url)s\">%(course_marketing_url)s</a>\n"
+"    "
 
 #: apps/course_metadata/templates/course_metadata/email/watchers_course_url.html:12
 #, python-format
@@ -2212,6 +2234,10 @@ msgid ""
 "href=\"%(course_marketing_url)s\">%(course_marketing_url)s</a>\n"
 "    "
 msgstr ""
+"\n"
+"        Workshop '%(course_name)s' has been successfully reviewed by edX and is now ready for publication. The workshop will be published on %(course_publish_date)s.\n"
+"        To see a preview of the Workshop About Page, go here: <a href=\"%(course_marketing_url)s\">%(course_marketing_url)s</a>\n"
+"    "
 
 #: apps/course_metadata/templates/course_metadata/email/watchers_course_url.txt:4
 #, python-format
@@ -2221,6 +2247,8 @@ msgid ""
 "now published on %(course_publish_date)s. To see live course, go here: "
 "%(course_marketing_url)s\n"
 msgstr ""
+"\n"
+"    Workshop '%(course_name)s' has been successfully reviewed by edX and is now published on %(course_publish_date)s. To see live workshop, go here: %(course_marketing_url)s\n"
 
 #: apps/course_metadata/templates/course_metadata/email/watchers_course_url.txt:8
 #, python-format
@@ -2232,10 +2260,13 @@ msgid ""
 "    To see a preview of the Course About Page, go here: "
 "%(course_preview_url)s\n"
 msgstr ""
+"\n"
+"   Workshop '%(course_name)s' has been successfully reviewed by edX and is now ready for publication. The workshop will be published on %(course_publish_date)s.\n"
+"    To see a preview of the Workshop About Page, go here: %(course_preview_url)s\n"
 
 #: apps/course_metadata/utils.py:391
 msgid "Special characters not allowed in Course Number."
-msgstr ""
+msgstr "Special characters not allowed in Workshop Number."
 
 #: apps/course_metadata/validators.py:30
 #, python-brace-format
@@ -2258,7 +2289,7 @@ msgstr ""
 
 #: apps/course_metadata/views.py:38
 msgid "Update excluded course runs"
-msgstr ""
+msgstr "Update excluded workshop runs"
 
 #: apps/course_metadata/views.py:45
 msgid "The program was changed successfully."
@@ -2270,11 +2301,11 @@ msgstr ""
 
 #: apps/course_metadata/views.py:206
 msgid "The refresh course skills task triggered successfully."
-msgstr ""
+msgstr "The refresh workshop skills task triggered successfully."
 
 #: apps/course_metadata/views.py:306
 msgid "The course skills were updated successfully."
-msgstr ""
+msgstr "The workshop skills were updated successfully."
 
 #: apps/edx_elasticsearch_dsl_extensions/exceptions.py:17
 msgid ""
@@ -2300,7 +2331,7 @@ msgstr ""
 
 #: apps/learner_pathway/models.py:87
 msgid "Course/Program associated pathways also appear in search results"
-msgstr ""
+msgstr "Workshop/Program associated pathways also appear in search results"
 
 #: apps/learner_pathway/models.py:90
 msgid "The active/inactive status of this Pathway."
@@ -2328,11 +2359,11 @@ msgstr ""
 
 #: apps/learner_pathway/models.py:237
 msgid "Learner Pathway Course"
-msgstr ""
+msgstr "Learner Pathway Workshop"
 
 #: apps/learner_pathway/models.py:238
 msgid "Learner Pathway Courses"
-msgstr ""
+msgstr "Learner Pathway Workshops"
 
 #: apps/learner_pathway/models.py:275
 msgid "Learner Pathway Program"
@@ -2348,7 +2379,7 @@ msgstr ""
 
 #: apps/taxonomy_support/management/commands/update_course_recommendations.py:19
 msgid "Update the course recommendations based on skills."
-msgstr ""
+msgstr "Update the workshop recommendations based on skills."
 
 #: apps/taxonomy_support/management/commands/update_course_recommendations.py:41
 msgid ""
@@ -2358,12 +2389,12 @@ msgstr ""
 
 #: apps/taxonomy_support/models.py:24
 msgid "The original course, whose recommendation is stored here."
-msgstr ""
+msgstr "The original workshop, whose recommendation is stored here."
 
 #: apps/taxonomy_support/models.py:29
 msgid ""
 "This is the course recommended after learner completes the original course."
-msgstr ""
+msgstr "This is the workshop recommended after learner completes the original workshop."
 
 #: apps/taxonomy_support/models.py:32
 msgid "Ratio of number of common skills and total skill count."
@@ -2372,7 +2403,7 @@ msgstr ""
 #: apps/taxonomy_support/models.py:35
 msgid ""
 "Count of common skills between the original course and recommended course."
-msgstr ""
+msgstr "Count of common skills between the original workshop and recommended workshop."
 
 #: apps/taxonomy_support/models.py:38
 msgid "Ratio of number of common subjects and total subject count."
@@ -2381,24 +2412,24 @@ msgstr ""
 #: apps/taxonomy_support/models.py:41
 msgid ""
 "Count of common subjects between the original course and recommended course."
-msgstr ""
+msgstr "Count of common subjects between the original workshop and recommended workshop."
 
 #: apps/taxonomy_support/models.py:46
 msgid "Course Recommendation"
-msgstr ""
+msgstr "Workshop Recommendation"
 
 #: apps/taxonomy_support/models.py:47
 msgid "Course Recommendations"
-msgstr ""
+msgstr "Workshop Recommendations"
 
 #: apps/taxonomy_support/models.py:54
 msgid "Adds recommendations for all published courses"
-msgstr ""
+msgstr "Adds recommendations for all published workshops"
 
 #: apps/taxonomy_support/models.py:58
 msgid ""
 "Adds recommendations for courses created or modified in the past num days"
-msgstr ""
+msgstr "Adds recommendations for workshops created or modified in the past num days"
 
 #: apps/taxonomy_support/providers.py:198
 msgid "No partner object found!"

@@ -35,11 +35,11 @@ msgstr ""
 
 #: admin.py:197
 msgid "courses with active proctored exams"
-msgstr ""
+msgstr "workshops with active proctored exams"
 
 #: admin.py:354
 msgid "Course Id"
-msgstr ""
+msgstr "Workshop Id"
 
 #: admin.py:392
 msgid "Created"
@@ -112,7 +112,7 @@ msgstr ""
 
 #: api.py:1654
 msgid "your course"
-msgstr ""
+msgstr "your workshop"
 
 #: api.py:1745
 #, python-brace-format
@@ -261,6 +261,15 @@ msgid ""
 "        you did not successfully meet the proctored exam requirements.\n"
 "    "
 msgstr ""
+"\n"
+"        Your proctored exam \"%(exam_name)s\" in\n"
+"        <a href=\"%(course_url)s\">%(course_name)s</a> was reviewed and the\n"
+"        workshop team has identified one or more violations of the proctored exam rules. Examples\n"
+"        of issues that may result in a rules violation include browsing\n"
+"        the internet, blurry or missing photo identification, using a phone,\n"
+"        or getting help from another person. As a result of the identified issue(s),\n"
+"        you did not successfully meet the proctored exam requirements.\n"
+"    "
 
 #: templates/emails/proctoring_attempt_unsatisfactory_email.html:25
 #, python-format
@@ -320,6 +329,9 @@ msgid ""
 "days.\n"
 "    "
 msgstr ""
+"\n"
+"      Proctoring for this workshop is provided via %(provider_name)s.  Onboarding review, including identity verification, can take 2+ business days.\n"
+"    "
 
 #: templates/onboarding_exam/entrance.html:40
 #, python-format
@@ -456,6 +468,11 @@ msgid ""
 "proctoring.\n"
 "    "
 msgstr ""
+"\n"
+"      If you already have an onboarding profile approved through another workshop,\n"
+"      this submission will not be reviewed. You may retry this exam at any time\n"
+"      to validate that your setup still meets the requirements for proctoring.\n"
+"    "
 
 #: templates/onboarding_exam/submitted.html:36
 msgid ""
@@ -497,6 +514,9 @@ msgid ""
 "exams in this course.\n"
 "    "
 msgstr ""
+"\n"
+"      Your profile has been established, and you're ready to take proctored exams in this workshop.\n"
+"    "
 
 #: templates/practice_exam/entrance.html:5
 msgid ""
@@ -513,6 +533,10 @@ msgid ""
 "        on your grade in the course.\n"
 "      "
 msgstr ""
+"\n"
+"        Get familiar with proctoring for real exams later in the workshop. This practice exam has no impact\n"
+"        on your grade in the workshop.\n"
+"      "
 
 #: templates/practice_exam/entrance.html:20
 msgid "Continue to my practice exam"
@@ -566,6 +590,10 @@ msgid ""
 "course work.\n"
 "      "
 msgstr ""
+"\n"
+"        Practice exams do not affect your grade.\n"
+"        You have completed this practice exam and can continue with your workshop work.\n"
+"      "
 
 #: templates/proctored_exam/confirm-decline.html:5
 msgid ""
@@ -582,6 +610,9 @@ msgid ""
 "course.\n"
 "      "
 msgstr ""
+"\n"
+"        If you take this exam without proctoring, you will not be eligible for workshop credit or the MicroMasters credential if either applies to this workshop.\n"
+"      "
 
 #: templates/proctored_exam/confirm-decline.html:16
 msgid "Continue Exam Without Proctoring"
@@ -608,6 +639,10 @@ msgid ""
 "\n"
 "    "
 msgstr ""
+"\n"
+"      To be eligible for credit or the program credential associated with this workshop, you must pass the proctoring review for this exam.\n"
+"\n"
+"    "
 
 #: templates/proctored_exam/entrance.html:15
 #: templates/proctored_exam/ready_to_resume.html:19
@@ -643,6 +678,11 @@ msgid ""
 "instructions.\n"
 "      "
 msgstr ""
+"\n"
+"        A system error has occurred with your proctored exam. Please reach out to your workshop \n"
+"        team at <a href=\"mailto:%(proctoring_escalation_email)s\">%(proctoring_escalation_email)s</a> \n"
+"        for assistance, and return to the exam once you receive further instructions.\n"
+"      "
 
 #: templates/proctored_exam/error.html:17
 #, python-format
@@ -1009,6 +1049,11 @@ msgid ""
 "            and upload your proctoring session data for review.\n"
 "          "
 msgstr ""
+"\n"
+"            Return to the %(platform_name)s workshop window to start your exam. When you have finished your exam and\n"
+"            have marked it as complete, you can close this window to end the proctoring session\n"
+"            and upload your proctoring session data for review.\n"
+"          "
 
 #: templates/proctored_exam/ready_to_resume.html:4
 msgid ""
@@ -1032,6 +1077,9 @@ msgid ""
 "this course, you must pass the proctoring review for this exam.\n"
 "    "
 msgstr ""
+"\n"
+"        To be eligible for credit or the program credential associated with this workshop, you must pass the proctoring review for this exam.\n"
+"    "
 
 #: templates/proctored_exam/ready_to_start.html:5
 msgid ""
@@ -1070,6 +1118,11 @@ msgid ""
 "         </strong></br>\n"
 "      "
 msgstr ""
+"\n"
+"         You must adhere to the following rules while you complete this exam.\n"
+"         <strong>If you violate these rules, you will receive a score of 0 on the exam, and you will not be eligible for academic workshop credit.\n"
+"         </strong></br>\n"
+"      "
 
 #: templates/proctored_exam/ready_to_start.html:29
 #, python-format
@@ -1163,6 +1216,9 @@ msgid ""
 "your course team.\n"
 "      "
 msgstr ""
+"\n"
+"        If you have concerns about your proctoring session results, contact your workshop team.\n"
+"      "
 
 #: templates/proctored_exam/submitted.html:4
 msgid ""
@@ -1270,6 +1326,11 @@ msgid ""
 "allowances.\n"
 "    "
 msgstr ""
+"\n"
+"      If you have disabilities,\n"
+"      you might be eligible for an additional time allowance on timed exams.\n"
+"      Ask your workshop team for information about additional time allowances.\n"
+"    "
 
 #: templates/timed_exam/ready_to_submit.html:4
 msgid ""
@@ -1391,7 +1452,7 @@ msgstr ""
 
 #: views.py:694 views.py:875
 msgid "There is no onboarding exam related to this course id."
-msgstr ""
+msgstr "There is no onboarding exam related to this workshop id."
 
 #: views.py:723
 msgid "There is no onboarding exam accessible to this user."
@@ -1434,12 +1495,12 @@ msgstr ""
 #: views.py:2158
 #, python-brace-format
 msgid "No exams in course {course_id}."
-msgstr ""
+msgstr "No exams in workshop {course_id}."
 
 #: views.py:2164
 #, python-brace-format
 msgid "No proctored exams in course {course_id}"
-msgstr ""
+msgstr "No proctored exams in workshop {course_id}"
 
 #: views.py:2191
 #, python-brace-format
