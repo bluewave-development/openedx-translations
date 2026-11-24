@@ -427,7 +427,7 @@ msgstr ""
 #: lti_xblock.py:709
 msgid ""
 "The specified LTI ID is not configured in this course's Advanced Settings."
-msgstr ""
+msgstr "The specified LTI ID is not configured in this workshop's Advanced Settings."
 
 #: lti_xblock.py:838 lti_xblock.py:1129
 msgid "Could not get user data for current request"
@@ -535,7 +535,7 @@ msgstr ""
 msgid ""
 "Please check that you have course staff permissions and double check this "
 "block's LTI settings."
-msgstr ""
+msgstr "Please check that you have workshop staff permissions and double check this block's LTI settings."
 
 #: templates/html/lti-dl/dl_response_error.html:6
 msgid "LTI Deep Linking failed."
@@ -629,7 +629,7 @@ msgstr ""
 #: templates/html/lti_proctoring_start_error.html:13
 msgid ""
 "If you're seeing this on a live course, please contact the course staff."
-msgstr ""
+msgstr "If you're seeing this on a live workshop, please contact the workshop staff."
 
 #: templates/html/lti_proctoring_start_error.html:10
 msgid "There was an error while starting your LTI proctored assessment."

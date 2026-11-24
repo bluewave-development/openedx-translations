@@ -567,10 +567,7 @@ msgid ""
 "This feature is being enabled by the course-level setting. It can be found "
 "under the Open Response Assessment Settings card on the Pages & Resources "
 "studio page."
-msgstr ""
-"Esta característica está siendo habilitada por la configuración del nivel "
-"del curso. Se puede encontrar en la tarjeta Configuración de evaluación de "
-"respuesta abierta en la página del estudio Páginas y recursos."
+msgstr "Esta característica está siendo habilitada por la configuración del nivel del taller. Se puede encontrar en la tarjeta Configuración de evaluación de respuesta abierta en la página del estudio Páginas y recursos."
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:60
 msgid "Grading strategy for the peer assessment"
@@ -713,7 +710,7 @@ msgstr ""
 
 #: templates/legacy/edit/oa_edit_schedule.html:22
 msgid "Match deadlines to the course end date"
-msgstr "Hacer coincidir los plazos con la fecha de finalización del curso."
+msgstr "Hacer coincidir los plazos con la fecha de finalización del taller."
 
 #: templates/legacy/edit/oa_edit_schedule.html:25
 msgid "Learn more about open response date settings"
@@ -775,7 +772,7 @@ msgstr ""
 
 #: templates/legacy/edit/oa_edit_staff_assessment.html:8
 msgid "Step: Staff Assessment"
-msgstr "Paso: Evaluación del equipo del curso"
+msgstr "Paso: Evaluación del equipo del taller"
 
 #: templates/legacy/edit/oa_edit_staff_assessment.html:12
 msgid ""
@@ -850,7 +847,7 @@ msgstr "Identificación de Bloque"
 
 #: templates/legacy/edit/oa_rubric_reuse.html:21
 msgid "No other Open Response Assessments found in course"
-msgstr "No se encontraron otras Pruebas de Respuestas Abiertas en este curso"
+msgstr "No se encontraron otras Pruebas de Respuestas Abiertas en este taller"
 
 #: templates/legacy/edit/oa_rubric_reuse.html:31
 msgid "Clone"
@@ -1014,17 +1011,13 @@ msgstr "Publicar retroalimentación"
 msgid ""
 "Your feedback has been submitted. Course staff will be able to see this "
 "feedback when they review course records."
-msgstr ""
-"Sus comentarios han sido enviados!. El equipo del curso los verá cuando "
-"revisen los registros del curso."
+msgstr "Sus comentarios han sido enviados!. El equipo del taller los verá cuando revisen los registros del taller."
 
 #: templates/legacy/grade/oa_grade_complete.html:140
 msgid ""
 "Course staff will be able to see any feedback that you provide here when "
 "they review course records."
-msgstr ""
-"El equipo del curso podrá ver todos los comentarios que publique aquí cuando"
-" revisen los registros del curso."
+msgstr "El equipo del taller podrá ver todos los comentarios que publique aquí cuando revisen los registros del taller."
 
 #: templates/legacy/grade/oa_grade_complete.html:146
 msgid ""
@@ -1114,9 +1107,7 @@ msgstr "Calificar respuestas disponibles"
 msgid ""
 "Grade Available Responses is unavailable. This item is not configured for "
 "Staff Assessment."
-msgstr ""
-"Calificar Respuestas Disponibles no está disponible. Este artículo no está "
-"configurado para Revisión por el equipo del curso."
+msgstr "Calificar Respuestas Disponibles no está disponible. Este artículo no está configurado para Revisión por el equipo del taller."
 
 #: templates/legacy/instructor_dashboard/oa_listing.html:6
 msgid "Please wait"
@@ -1158,10 +1149,7 @@ msgid ""
 "Your team’s submission has been cancelled. Your team will receive a grade of"
 " zero unless course staff resets your assessment to allow the team to "
 "resubmit a response."
-msgstr ""
-"La entrega de tu equipo ha sido cancelada. Tu equipo recibirá una "
-"calificación de cero a no ser que el personal del curso restablezca tu "
-"prueba para permitir que el equipo pueda enviar nuevamente una respuesta."
+msgstr "La entrega de tu equipo ha sido cancelada. Tu equipo recibirá una calificación de cero a no ser que el personal del taller restablezca tu prueba para permitir que el equipo pueda enviar nuevamente una respuesta."
 
 #: templates/legacy/message/oa_message_cancelled.html:10
 msgid ""
@@ -1394,11 +1382,7 @@ msgid ""
 "Caution: These files were uploaded by another course learner and have not "
 "been verified, screened, approved, reviewed, or endorsed by the site "
 "administrator. If you access the files, you do so at your own risk.)"
-msgstr ""
-"Cuidado: Estos archivos fueron subidos por otro estudiante en el curso y no "
-"han sido verificados, filtrados, aprobados, revisados, o respaldados por el "
-"administrador del sitio. Si abre los archivos, los abre bajo su propio "
-"riesgo.)"
+msgstr "Cuidado: Estos archivos fueron subidos por otro estudiante en el taller y no han sido verificados, filtrados, aprobados, revisados, o respaldados por el administrador del sitio. Si abre los archivos, los abre bajo su propio riesgo.)"
 
 #: templates/legacy/peer/oa_peer_assessment.html:36
 msgid "Assess Peers"
@@ -1415,7 +1399,7 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-datetime=\"__PO_PROT_0__\" data-string=\"available __PO_PROT_4__ (in __PO_PROT_1__)\" data-timezone=\"__PO_PROT_2__\" data-language=\"__PO_PROT_3__\"></span>\n"
 "            "
 
 #. Translators: This string displays a date to the user, then tells them the
@@ -1429,7 +1413,7 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-datetime=\"__PO_PROT_0__\" data-string=\"due __PO_PROT_4__ (in __PO_PROT_1__)\" data-timezone=\"__PO_PROT_2__\" data-language=\"__PO_PROT_3__\"></span>\n"
 "            "
 
 #: templates/legacy/peer/oa_peer_assessment.html:61
@@ -1583,7 +1567,7 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"__PO_PROT_0__\" data-string=\"available __PO_PROT_4__ (in __PO_PROT_1__)\" data-timezone=\"__PO_PROT_2__\" data-language=\"__PO_PROT_3__\"></span>\n"
 "            "
 
 #. Translators: This string displays a date to the user, then tells them the
@@ -1597,7 +1581,7 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"__PO_PROT_0__\" data-string=\"due __PO_PROT_4__ (in __PO_PROT_1__)\" data-timezone=\"__PO_PROT_2__\" data-language=\"__PO_PROT_3__\"></span>\n"
 "            "
 
 #: templates/legacy/response/oa_response.html:54
@@ -1650,9 +1634,7 @@ msgstr ""
 msgid ""
 "Your work will save automatically and you can return to complete your "
 "response at any time before the course ends "
-msgstr ""
-"Tu trabajo se guardará automáticamente y podrás regresar para completar tu "
-"respuesta en cualquier momento antes de que finalice el curso."
+msgstr "Tu trabajo se guardará automáticamente y podrás regresar para completar tu respuesta en cualquier momento antes de que finalice el taller."
 
 #: templates/legacy/response/oa_response.html:96
 msgid ""
@@ -1914,11 +1896,7 @@ msgid ""
 "longer submit a response or continue with this problem, and you will receive"
 " a grade of Incomplete. If you saved but did not submit a response, the "
 "response appears in the course records."
-msgstr ""
-"La fecha límite para este paso se ha vencido. El paso está cerrado. Ya no "
-"puede completar calificaciones entre pares ni seguir con esta tarea, y "
-"recibirá una calificación de Incompleto. Si usted guardó una respuesta pero "
-"no la envió, la respuesta aparece en el registro del curso."
+msgstr "La fecha límite para este paso se ha vencido. El paso está cerrado. Ya no puede completar calificaciones entre pares ni seguir con esta tarea, y recibirá una calificación de Incompleto. Si usted guardó una respuesta pero no la envió, la respuesta aparece en el registro del taller."
 
 #: templates/legacy/response/oa_response_graded.html:20
 #: templates/legacy/response/oa_response_submitted.html:20
@@ -2004,7 +1982,7 @@ msgstr ""
 "\n"
 "                            Te uniste al equipo %(team_name)sdespués de que ellos enviaron una respuesta para esta tarea\n"
 "                            y no recibirás una calificación por su respuesta. También anteriormente no has enviado\n"
-"                            una respuesta para esta tarea con otro equipo. Por favor ponte en contacto con el personal encargado del curso para discutir tus \n"
+"                            una respuesta para esta tarea con otro equipo. Por favor ponte en contacto con el personal encargado del taller para discutir tus \n"
 "                            alternativas para esta tarea.\n"
 "                        "
 
@@ -2023,7 +2001,7 @@ msgid ""
 "           "
 msgstr ""
 "\n"
-"               <span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"               <span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-datetime=\"__PO_PROT_0__\" data-string=\"available __PO_PROT_4__ (in __PO_PROT_1__)\" data-timezone=\"__PO_PROT_2__\" data-language=\"__PO_PROT_3__\"></span>\n"
 "           "
 
 #. Translators: This string displays a date to the user, then tells them the
@@ -2037,7 +2015,7 @@ msgid ""
 "           "
 msgstr ""
 "\n"
-"               <span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"               <span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-datetime=\"__PO_PROT_0__\" data-string=\"due __PO_PROT_4__ (in __PO_PROT_1__)\" data-timezone=\"__PO_PROT_2__\" data-language=\"__PO_PROT_3__\"></span>\n"
 "           "
 
 #: templates/legacy/self/oa_self_assessment.html:88
@@ -2138,7 +2116,7 @@ msgstr "N/D"
 
 #: templates/legacy/staff_area/oa_staff_grade_learners.html:7
 msgid "Staff Assessment"
-msgstr "Evaluación del equipo del curso"
+msgstr "Evaluación del equipo del taller"
 
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:14
 msgid "Give this team a grade using the problem's rubric."
@@ -2305,7 +2283,7 @@ msgstr "Auto evaluación del estudiante"
 
 #: templates/legacy/staff_area/oa_student_info.html:87
 msgid "Staff Assessment for This Learner"
-msgstr "Revisión del equipo del curso para este estudiante"
+msgstr "Revisión del equipo del taller para este estudiante"
 
 #: templates/legacy/staff_area/oa_student_info.html:89
 msgid "Staff Assessment for this Team"
@@ -2410,10 +2388,7 @@ msgstr "Inhabilitado de realizar la anulación de la nota"
 msgid ""
 "Grades are frozen. Grades are automatically frozen 30 days after the course "
 "end date."
-msgstr ""
-"Las calificaciones están bloqueadas. Las calificaciones están "
-"automáticamente bloqueadas 30 días después de la fecha de finalización del "
-"curso."
+msgstr "Las calificaciones están bloqueadas. Las calificaciones están automáticamente bloqueadas 30 días después de la fecha de finalización del taller."
 
 #: templates/legacy/staff_area/oa_student_info.html:212
 msgid ""
@@ -2518,7 +2493,7 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"__PO_PROT_0__\" data-string=\"available __PO_PROT_4__ (in __PO_PROT_1__)\" data-timezone=\"__PO_PROT_2__\" data-language=\"__PO_PROT_3__\"></span>\n"
 "            "
 
 #. Translators: This string displays a date to the user, then tells them the
@@ -2532,7 +2507,7 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"__PO_PROT_0__\" data-string=\"due __PO_PROT_4__ (in __PO_PROT_1__)\" data-timezone=\"__PO_PROT_2__\" data-language=\"__PO_PROT_3__\"></span>\n"
 "            "
 
 #: templates/legacy/student_training/student_training.html:58
@@ -2640,7 +2615,7 @@ msgstr "Comentarios guardados."
 
 #: xblock/grade_mixin.py:370 xblock/grade_mixin.py:535
 msgid "Staff Comments"
-msgstr "Comentarios del equipo del curso"
+msgstr "Comentarios del equipo del taller"
 
 #: xblock/grade_mixin.py:383 xblock/grade_mixin.py:542
 #, python-brace-format
@@ -2782,7 +2757,7 @@ msgstr "No tienes permiso para reprogramar tareas."
 
 #: xblock/staff_area_mixin.py:69
 msgid "You do not have permission to access the ORA staff area"
-msgstr "No tiene permisos para acceder el área del equipo del curso para ORA"
+msgstr "No tiene permisos para acceder el área del equipo del taller para ORA"
 
 #: xblock/staff_area_mixin.py:70
 msgid "You do not have permission to access ORA learner information."
@@ -2790,9 +2765,7 @@ msgstr "No tiene permiso para acceder la información de estudiantes de ORA."
 
 #: xblock/staff_area_mixin.py:71
 msgid "You do not have permission to access ORA staff grading."
-msgstr ""
-"No tiene permisos para acceder a la calificación de miembros del equipo de "
-"curso de ORA."
+msgstr "No tiene permisos para acceder a la calificación de miembros del equipo de taller de ORA."
 
 #: xblock/staff_area_mixin.py:241
 msgid "Pending"
@@ -2830,7 +2803,7 @@ msgstr ""
 
 #: xblock/staff_area_mixin.py:387
 msgid "Error getting staff grade information."
-msgstr "Error obteniendo la información de calificación del equipo del curso."
+msgstr "Error obteniendo la información de calificación del equipo del taller."
 
 #: xblock/staff_area_mixin.py:408
 msgid "Error getting staff grade ungraded and checked out counts."
@@ -2998,9 +2971,7 @@ msgstr ""
 
 #: xblock/utils/validation.py:160
 msgid "The \"required\" value must be true if staff assessment is the only step."
-msgstr ""
-"El valor \"requerido\" debe estar en true si la calificación de miembros del"
-" equipo del curso es el único paso."
+msgstr "El valor \"requerido\" debe estar en true si la calificación de miembros del equipo del taller es el único paso."
 
 #: xblock/utils/validation.py:164
 msgid ""

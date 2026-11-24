@@ -526,10 +526,7 @@ msgid ""
 "This feature is being enabled by the course-level setting. It can be found "
 "under the Open Response Assessment Settings card on the Pages & Resources "
 "studio page."
-msgstr ""
-"Esta función está habilitada por la configuración del nivel del curso. Se "
-"puede encontrar en la tarjeta Configuración de evaluación de respuesta "
-"abierta en la página del estudio Páginas y recursos."
+msgstr "Esta función está habilitada por la configuración del nivel del taller. Se puede encontrar en la tarjeta Configuración de evaluación de respuesta abierta en la página del estudio Páginas y recursos."
 
 #: templates/legacy/edit/oa_edit_peer_assessment_schedule.html:5
 msgid "Peer Assessment Deadlines"
@@ -649,7 +646,7 @@ msgstr ""
 
 #: templates/legacy/edit/oa_edit_schedule.html:22
 msgid "Match deadlines to the course end date"
-msgstr "Hacer coincidir los plazos con la fecha de finalización del curso."
+msgstr "Hacer coincidir los plazos con la fecha de finalización del taller."
 
 #: templates/legacy/edit/oa_edit_schedule.html:25
 msgid "Learn more about open response date settings"
@@ -787,7 +784,7 @@ msgstr "ID de componente"
 
 #: templates/legacy/edit/oa_rubric_reuse.html:21
 msgid "No other Open Response Assessments found in course"
-msgstr "No se han encontrado otras tareas de respuesta abierta en este curso"
+msgstr "No se han encontrado otras tareas de respuesta abierta en este taller"
 
 #: templates/legacy/edit/oa_rubric_reuse.html:31
 msgid "Clone"
@@ -930,17 +927,13 @@ msgstr "Enviando retroalimentación"
 msgid ""
 "Your feedback has been submitted. Course staff will be able to see this "
 "feedback when they review course records."
-msgstr ""
-"Tu retroalimentación se ha enviado. El equipo docente podrá verla cuando "
-"revise los registros del curso."
+msgstr "Tu retroalimentación se ha enviado. El equipo docente podrá verla cuando revise los registros del taller."
 
 #: templates/legacy/grade/oa_grade_complete.html:140
 msgid ""
 "Course staff will be able to see any feedback that you provide here when "
 "they review course records."
-msgstr ""
-"El equipo docente podrá ver cualquier retroalimentación que proporciones "
-"aquí cuando revise los registros del curso."
+msgstr "El equipo docente podrá ver cualquier retroalimentación que proporciones aquí cuando revise los registros del taller."
 
 #: templates/legacy/grade/oa_grade_complete.html:146
 msgid ""
@@ -1124,26 +1117,20 @@ msgstr ""
 msgid ""
 "This assignment is in progress. Learner training will close soon. Complete "
 "the learner training step to move on."
-msgstr ""
-"Esta tarea está en curso. El entrenamiento del estudiante finalizará pronto."
-" Completa el paso de entrenamiento del estudiante para continuar."
+msgstr "Esta tarea está en taller. El entrenamiento del estudiante finalizará pronto. Completa el paso de entrenamiento del estudiante para continuar."
 
 #: templates/legacy/message/oa_message_incomplete.html:11
 msgid ""
 "This assignment is in progress. Complete the learner training step to move "
 "on."
-msgstr ""
-"Esta tarea está en curso. Completa el paso de entrenamiento del estudiante "
-"para continuar."
+msgstr "Esta tarea está en taller. Completa el paso de entrenamiento del estudiante para continuar."
 
 #: templates/legacy/message/oa_message_incomplete.html:15
 #: templates/legacy/message/oa_message_incomplete.html:33
 msgid ""
 "This assignment is in progress. Check back later when the assessment period "
 "has started."
-msgstr ""
-"Esta tarea está en curso. Vuelve a consultar más tarde cuando haya comenzado"
-" el periodo de evaluación."
+msgstr "Esta tarea está en taller. Vuelve a consultar más tarde cuando haya comenzado el periodo de evaluación."
 
 #: templates/legacy/message/oa_message_incomplete.html:20
 #, python-format
@@ -1153,7 +1140,7 @@ msgid ""
 "                                "
 msgstr ""
 "\n"
-"                                    %(start_strong)sEsta tarea está en curso. El paso de autoevaluación se cerrará pronto.%(end_strong)s Aún tienes que completar el paso de %(start_link)sautoevaluación%(end_link)s.\n"
+"                                    %(start_strong)sEsta tarea está en taller. El paso de autoevaluación se cerrará pronto.%(end_strong)s Aún tienes que completar el paso de %(start_link)sautoevaluación%(end_link)s.\n"
 "                                "
 
 #: templates/legacy/message/oa_message_incomplete.html:24
@@ -1164,7 +1151,7 @@ msgid ""
 "                                "
 msgstr ""
 "\n"
-"                                    Esta tarea está en curso. Aún tienes que completar el paso de %(start_link)sautoevaluación%(end_link)s.\n"
+"                                    Esta tarea está en taller. Aún tienes que completar el paso de %(start_link)sautoevaluación%(end_link)s.\n"
 "                                "
 
 #: templates/legacy/message/oa_message_incomplete.html:38
@@ -1175,7 +1162,7 @@ msgid ""
 "                                "
 msgstr ""
 "\n"
-"                                    Esta tarea está en curso. %(start_strong)sEl paso de evaluación por pares se cerrará pronto.%(end_strong)s Se han evaluado todas las respuestas enviadas. Vuelve a consultar más tarde si más estudiantes han enviado sus respuestas. Aún tienes que completar el paso de %(start_link)sevaluación por pares%(end_link)s.\n"
+"                                    Esta tarea está en taller. %(start_strong)sEl paso de evaluación por pares se cerrará pronto.%(end_strong)s Se han evaluado todas las respuestas enviadas. Vuelve a consultar más tarde si más estudiantes han enviado sus respuestas. Aún tienes que completar el paso de %(start_link)sevaluación por pares%(end_link)s.\n"
 "                                "
 
 #: templates/legacy/message/oa_message_incomplete.html:42
@@ -1186,7 +1173,7 @@ msgid ""
 "                                "
 msgstr ""
 "\n"
-"                                    Esta tarea está en curso. Se han evaluado todas las respuestas enviadas. Vuelve a consultar más tarde si más estudiantes han enviado sus respuestas. Aún tienes que completar el paso de %(start_link)sevaluación por pares%(end_link)s.\n"
+"                                    Esta tarea está en taller. Se han evaluado todas las respuestas enviadas. Vuelve a consultar más tarde si más estudiantes han enviado sus respuestas. Aún tienes que completar el paso de %(start_link)sevaluación por pares%(end_link)s.\n"
 "                                "
 
 #: templates/legacy/message/oa_message_incomplete.html:46
@@ -1197,7 +1184,7 @@ msgid ""
 "                                "
 msgstr ""
 "\n"
-"                                    Esta tarea está en curso. %(start_strong)sEl paso de evaluación por pares se cerrará pronto.%(end_strong)s Aún tienes que completar el paso de %(start_link)sevaluación por pares %(end_link)s.\n"
+"                                    Esta tarea está en taller. %(start_strong)sEl paso de evaluación por pares se cerrará pronto.%(end_strong)s Aún tienes que completar el paso de %(start_link)sevaluación por pares %(end_link)s.\n"
 "                                "
 
 #: templates/legacy/message/oa_message_incomplete.html:50
@@ -1208,7 +1195,7 @@ msgid ""
 "                                "
 msgstr ""
 "\n"
-"                                    Esta tarea está en curso. Aún tienes que completar el paso de %(start_link)sevaluación por pares%(end_link)s.\n"
+"                                    Esta tarea está en taller. Aún tienes que completar el paso de %(start_link)sevaluación por pares%(end_link)s.\n"
 "                                "
 
 #: templates/legacy/message/oa_message_no_team.html:4
@@ -1316,11 +1303,7 @@ msgid ""
 "Caution: These files were uploaded by another course learner and have not "
 "been verified, screened, approved, reviewed, or endorsed by the site "
 "administrator. If you access the files, you do so at your own risk.)"
-msgstr ""
-"Cuidado: estos archivos fueron cargados por otro estudiante del curso y no "
-"han sido verificados, examinados, aprobados, revisados ni respaldados por el"
-" administrador del sitio. Si accedes a los archivos, lo haces bajo tu propio"
-" riesgo)."
+msgstr "Cuidado: estos archivos fueron cargados por otro estudiante del taller y no han sido verificados, examinados, aprobados, revisados ni respaldados por el administrador del sitio. Si accedes a los archivos, lo haces bajo tu propio riesgo)."
 
 #: templates/legacy/peer/oa_peer_assessment.html:36
 msgid "Assess Peers"
@@ -1337,7 +1320,7 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-datetime=\"__PO_PROT_0__\" data-string=\"available __PO_PROT_4__ (in __PO_PROT_1__)\" data-timezone=\"__PO_PROT_2__\" data-language=\"__PO_PROT_3__\"></span>\n"
 "            "
 
 #. Translators: This string displays a date to the user, then tells them the
@@ -1351,7 +1334,7 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-datetime=\"__PO_PROT_0__\" data-string=\"due __PO_PROT_4__ (in __PO_PROT_1__)\" data-timezone=\"__PO_PROT_2__\" data-language=\"__PO_PROT_3__\"></span>\n"
 "            "
 
 #: templates/legacy/peer/oa_peer_assessment.html:61
@@ -1362,7 +1345,7 @@ msgid ""
 "                "
 msgstr ""
 "\n"
-"                    En curso (%(review_number)s of %(num_must_grade)s)\n"
+"                    En taller (%(review_number)s of %(num_must_grade)s)\n"
 "                "
 
 #: templates/legacy/peer/oa_peer_assessment.html:75
@@ -1473,7 +1456,7 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"          En curso (%(review_number)s of %(num_must_grade)s)\n"
+"          En taller (%(review_number)s of %(num_must_grade)s)\n"
 "        "
 
 #: templates/legacy/peer/oa_peer_waiting.html:37
@@ -1503,7 +1486,7 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"__PO_PROT_0__\" data-string=\"available __PO_PROT_4__ (in __PO_PROT_1__)\" data-timezone=\"__PO_PROT_2__\" data-language=\"__PO_PROT_3__\"></span>\n"
 "            "
 
 #. Translators: This string displays a date to the user, then tells them the
@@ -1517,13 +1500,13 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"__PO_PROT_0__\" data-string=\"due __PO_PROT_4__ (in __PO_PROT_1__)\" data-timezone=\"__PO_PROT_2__\" data-language=\"__PO_PROT_3__\"></span>\n"
 "            "
 
 #: templates/legacy/response/oa_response.html:54
 #: templates/legacy/self/oa_self_assessment.html:56
 msgid "In Progress"
-msgstr "En curso"
+msgstr "En taller"
 
 #: templates/legacy/response/oa_response.html:66
 msgid "Enter your team's response to the prompt."
@@ -1569,9 +1552,7 @@ msgstr ""
 msgid ""
 "Your work will save automatically and you can return to complete your "
 "response at any time before the course ends "
-msgstr ""
-"Su trabajo se guardará automáticamente y puede regresar para completar su "
-"respuesta en cualquier momento antes de que el curso termine."
+msgstr "Su trabajo se guardará automáticamente y puede regresar para completar su respuesta en cualquier momento antes de que el taller termine."
 
 #: templates/legacy/response/oa_response.html:96
 msgid ""
@@ -1832,11 +1813,7 @@ msgid ""
 "longer submit a response or continue with this problem, and you will receive"
 " a grade of Incomplete. If you saved but did not submit a response, the "
 "response appears in the course records."
-msgstr ""
-"Ha pasado la fecha límite para este paso. Este paso está cerrado. Ya no "
-"puedes enviar una respuesta o continuar con esta tarea, y recibirás una "
-"calificación de incompleto. Si guardaste pero no enviaste una respuesta, la "
-"respuesta aparece en los registros del curso."
+msgstr "Ha pasado la fecha límite para este paso. Este paso está cerrado. Ya no puedes enviar una respuesta o continuar con esta tarea, y recibirás una calificación de incompleto. Si guardaste pero no enviaste una respuesta, la respuesta aparece en los registros del taller."
 
 #: templates/legacy/response/oa_response_graded.html:20
 #: templates/legacy/response/oa_response_submitted.html:20
@@ -1933,7 +1910,7 @@ msgid ""
 "           "
 msgstr ""
 "\n"
-"               <span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"               <span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-datetime=\"__PO_PROT_0__\" data-string=\"available __PO_PROT_4__ (in __PO_PROT_1__)\" data-timezone=\"__PO_PROT_2__\" data-language=\"__PO_PROT_3__\"></span>\n"
 "           "
 
 #. Translators: This string displays a date to the user, then tells them the
@@ -1947,7 +1924,7 @@ msgid ""
 "           "
 msgstr ""
 "\n"
-"               <span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"               <span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-datetime=\"__PO_PROT_0__\" data-string=\"due __PO_PROT_4__ (in __PO_PROT_1__)\" data-timezone=\"__PO_PROT_2__\" data-language=\"__PO_PROT_3__\"></span>\n"
 "           "
 
 #: templates/legacy/self/oa_self_assessment.html:88
@@ -2296,9 +2273,7 @@ msgstr "No se ha podido sobrescribir la calificación"
 msgid ""
 "Grades are frozen. Grades are automatically frozen 30 days after the course "
 "end date."
-msgstr ""
-"Las calificaciones están bloqueadas. Las calificaciones se bloquean "
-"automáticamente 30 días después de la fecha de finalización del curso."
+msgstr "Las calificaciones están bloqueadas. Las calificaciones se bloquean automáticamente 30 días después de la fecha de finalización del taller."
 
 #: templates/legacy/staff_area/oa_student_info.html:212
 msgid ""
@@ -2389,7 +2364,7 @@ msgid ""
 "                  "
 msgstr ""
 "\n"
-"                      En curso (%(current_progress_num)s de %(training_available_num)s)\n"
+"                      En taller (%(current_progress_num)s de %(training_available_num)s)\n"
 "                  "
 
 #. Translators: This string displays a date to the user, then tells them the
@@ -2403,7 +2378,7 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"__PO_PROT_0__\" data-string=\"available __PO_PROT_4__ (in __PO_PROT_1__)\" data-timezone=\"__PO_PROT_2__\" data-language=\"__PO_PROT_3__\"></span>\n"
 "            "
 
 #. Translators: This string displays a date to the user, then tells them the
@@ -2417,7 +2392,7 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
+"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"__PO_PROT_0__\" data-string=\"due __PO_PROT_4__ (in __PO_PROT_1__)\" data-timezone=\"__PO_PROT_2__\" data-language=\"__PO_PROT_3__\"></span>\n"
 "            "
 
 #: templates/legacy/student_training/student_training.html:58

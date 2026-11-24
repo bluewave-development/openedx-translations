@@ -39,11 +39,11 @@ msgstr "Exámenes supervisados activos"
 
 #: admin.py:197
 msgid "courses with active proctored exams"
-msgstr "cursos con exámenes activos supervisados"
+msgstr "talleres con exámenes activos supervisados"
 
 #: admin.py:354
 msgid "Course Id"
-msgstr "Id del curso"
+msgstr "Id del taller"
 
 #: admin.py:392
 msgid "Created"
@@ -116,7 +116,7 @@ msgstr "usted tiene {remaining_time} para terminar"
 
 #: api.py:1654
 msgid "your course"
-msgstr "su curso"
+msgstr "su taller"
 
 #: api.py:1745
 #, python-brace-format
@@ -218,7 +218,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Se revisó su examen supervisado \"%(exam_name)s\" en <a href=\"%(course_url)s\">%(course_name)s</a> y cumplió con todos los requisitos de supervisión."
+"Se revisó su examen supervisado \"%(exam_name)s\" en <a href=\"__PO_PROT_1__\">%(course_name)s</a> y cumplió con todos los requisitos de supervisión."
 
 #: templates/emails/proctoring_attempt_satisfactory_email.html:21
 #, python-format
@@ -231,7 +231,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Si tiene alguna pregunta sobre sus resultados, puede comunicarse con <a href=\"%(contact_url)s\">%(contact_url_text)s</a> ."
+"Si tiene alguna pregunta sobre sus resultados, puede comunicarse con <a href=\"__PO_PROT_0__\">%(contact_url_text)s</a> ."
 
 #: templates/emails/proctoring_attempt_unsatisfactory_email.html:12
 #, python-format
@@ -247,7 +247,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Su examen supervisado \"%(exam_name)s\" en <a href=\"%(course_url)s\">%(course_name)s</a> fue revisado y el equipo del curso identificó una o más violaciones de las reglas del examen supervisado. Los ejemplos de problemas que pueden resultar en una violación de las reglas incluyen navegar por Internet, una identificación con foto borrosa o faltante, usar un teléfono u obtener ayuda de otra persona. Como resultado de los problema(s) identificados, no cumplió satisfactoriamente con los requisitos del examen supervisado."
+"Su examen supervisado \"%(exam_name)s\" en <a href=\"__PO_PROT_1__\">%(course_name)s</a> fue revisado y el equipo del taller identificó una o más violaciones de las reglas del examen supervisado. Los ejemplos de problemas que pueden resultar en una violación de las reglas incluyen navegar por Internet, una identificación con foto borrosa o faltante, usar un teléfono u obtener ayuda de otra persona. Como resultado de los problema(s) identificados, no cumplió satisfactoriamente con los requisitos del examen supervisado."
 
 #: templates/emails/proctoring_attempt_unsatisfactory_email.html:25
 #, python-format
@@ -261,7 +261,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Para apelar los resultados de su examen supervisado, comuníquese con cualquier información relevante sobre su examen en <a href=\"%(contact_url)s\">%(contact_url_text)s</a> ."
+"Para apelar los resultados de su examen supervisado, comuníquese con cualquier información relevante sobre su examen en <a href=\"__PO_PROT_0__\">%(contact_url_text)s</a> ."
 
 #: templates/onboarding_exam/entrance.html:5
 msgid ""
@@ -316,7 +316,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"La supervisión de este curso se proporciona a través de %(provider_name)s. La revisión de incorporación, incluida la verificación de identidad, puede demorar más de 2 días hábiles."
+"La supervisión de este taller se proporciona a través de %(provider_name)s. La revisión de incorporación, incluida la verificación de identidad, puede demorar más de 2 días hábiles."
 
 #: templates/onboarding_exam/entrance.html:40
 #, python-format
@@ -328,7 +328,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Una vez que se haya revisado su perfil, recibirá un correo electrónico con los resultados de la revisión. El correo electrónico provendrá de <a href=\"mailto:%(learner_notification_from_email)s\">%(learner_notification_from_email)s</a> . Asegúrese de que este correo electrónico se haya agregado a su filtro de bandeja de entrada."
+"Una vez que se haya revisado su perfil, recibirá un correo electrónico con los resultados de la revisión. El correo electrónico provendrá de <a href=\"mailto:__PO_PROT_0__\">%(learner_notification_from_email)s</a> . Asegúrese de que este correo electrónico se haya agregado a su filtro de bandeja de entrada."
 
 #: templates/onboarding_exam/entrance.html:49
 #, python-format
@@ -340,7 +340,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Comuníquese con <a href=\"mailto:%(integration_specific_email)s\">%(integration_specific_email)s</a> si tiene preguntas."
+"Comuníquese con <a href=\"mailto:__PO_PROT_0__\">%(integration_specific_email)s</a> si tiene preguntas."
 
 #: templates/onboarding_exam/entrance.html:58
 msgid "Continue to onboarding"
@@ -404,7 +404,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Comuníquese con <a href=\"mailto:%(integration_specific_email)s\">%(integration_specific_email)s</a> si tiene preguntas. Puede volver a realizar este examen de ingreso haciendo clic en \"Reintentar mi examen\"."
+"Comuníquese con <a href=\"mailto:__PO_PROT_0__\">%(integration_specific_email)s</a> si tiene preguntas. Puede volver a realizar este examen de ingreso haciendo clic en \"Reintentar mi examen\"."
 
 #: templates/onboarding_exam/rejected.html:20
 #: templates/onboarding_exam/submitted.html:47
@@ -453,7 +453,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Una vez que se haya revisado su perfil, recibirá un correo electrónico con los resultados de la revisión. El correo electrónico provendrá de <a href=\"mailto:%(learner_notification_from_email)s\">%(learner_notification_from_email)s</a> , así que asegúrese de que este correo electrónico se haya agregado a su filtro de bandeja de entrada."
+"Una vez que se haya revisado su perfil, recibirá un correo electrónico con los resultados de la revisión. El correo electrónico provendrá de <a href=\"mailto:__PO_PROT_0__\">%(learner_notification_from_email)s</a> , así que asegúrese de que este correo electrónico se haya agregado a su filtro de bandeja de entrada."
 
 #: templates/onboarding_exam/submitted.html:29
 msgid ""
@@ -464,7 +464,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Si ya tiene un perfil de incorporación aprobado a través de otro curso, esta presentación no se revisará. Puede volver a intentar este examen en cualquier momento para validar que su configuración aún cumple con los requisitos para la supervisión."
+"Si ya tiene un perfil de incorporación aprobado a través de otro taller, esta presentación no se revisará. Puede volver a intentar este examen en cualquier momento para validar que su configuración aún cumple con los requisitos para la supervisión."
 
 #: templates/onboarding_exam/submitted.html:36
 msgid ""
@@ -492,7 +492,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Comuníquese con <a href=\"mailto:%(integration_specific_email)s\">%(integration_specific_email)s</a> si tiene preguntas."
+"Comuníquese con <a href=\"mailto:__PO_PROT_0__\">%(integration_specific_email)s</a> si tiene preguntas."
 
 #: templates/onboarding_exam/verified.html:4
 msgid ""
@@ -510,7 +510,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Se ha establecido su perfil y está listo para realizar los exámenes supervisados de este curso."
+"Se ha establecido su perfil y está listo para realizar los exámenes supervisados de este taller."
 
 #: templates/practice_exam/entrance.html:5
 msgid ""
@@ -529,7 +529,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Familiarícese con la supervisión de exámenes reales más adelante en el curso. Este examen de práctica no tiene impacto en su calificación en el curso."
+"Familiarícese con la supervisión de exámenes reales más adelante en el taller. Este examen de práctica no tiene impacto en su calificación en el taller."
 
 #: templates/practice_exam/entrance.html:20
 msgid "Continue to my practice exam"
@@ -590,7 +590,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Los exámenes de práctica no afectan su calificación. Ha completado este examen de práctica y puede continuar con su trabajo de curso."
+"Los exámenes de práctica no afectan su calificación. Ha completado este examen de práctica y puede continuar con su trabajo de taller."
 
 #: templates/proctored_exam/confirm-decline.html:5
 msgid ""
@@ -609,7 +609,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Si realiza este examen sin supervisión, no será elegible para crédito del curso o la credencial de MicroMasters si se aplica a este curso."
+"Si realiza este examen sin supervisión, no será elegible para crédito del taller o la credencial de MicroMasters si se aplica a este taller."
 
 #: templates/proctored_exam/confirm-decline.html:16
 msgid "Continue Exam Without Proctoring"
@@ -639,7 +639,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Para ser apto para el crédito o la credencial del programa asociado con este curso, debe aprobar la revisión de supervisión para este examen."
+"Para ser apto para el crédito o la credencial del programa asociado con este taller, debe aprobar la revisión de supervisión para este examen."
 
 #: templates/proctored_exam/entrance.html:15
 #: templates/proctored_exam/ready_to_resume.html:19
@@ -677,7 +677,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Se ha producido un error del sistema con su examen supervisado. Comuníquese con su equipo del curso al <a href=\"mailto:%(proctoring_escalation_email)s\">%(proctoring_escalation_email)s </a> para obtener ayuda y regrese al examen una vez que reciba más instrucciones."
+"Se ha producido un error del sistema con su examen supervisado. Comuníquese con su equipo del taller al <a href=\"mailto:__PO_PROT_0__\">%(proctoring_escalation_email)s </a> para obtener ayuda y regrese al examen una vez que reciba más instrucciones."
 
 #: templates/proctored_exam/error.html:17
 #, python-format
@@ -689,7 +689,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Se ha producido un error del sistema con su examen supervisado. Comuníquese con el servicio de <a href=\"%(link_urls.contact_us)s\" target=\"_blank\">asistencia técnica %(platform_name)s</a> para obtener ayuda y regrese al examen una vez que reciba más instrucciones."
+"Se ha producido un error del sistema con su examen supervisado. Comuníquese con el servicio de <a href=\"__PO_PROT_0__\" target=\"_blank\">asistencia técnica %(platform_name)s</a> para obtener ayuda y regrese al examen una vez que reciba más instrucciones."
 
 #: templates/proctored_exam/error_modal.html:7
 msgid "Close"
@@ -830,7 +830,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Si no puede encontrar este correo electrónico, puede <a href=\"%(reset_link)s\" target=\"_blank\">restablecer su contraseña</a> para activar su cuenta."
+"Si no puede encontrar este correo electrónico, puede <a href=\"__PO_PROT_0__\" target=\"_blank\">restablecer su contraseña</a> para activar su cuenta."
 
 #: templates/proctored_exam/inactive_account.html:26
 msgid ""
@@ -850,7 +850,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Si sigue teniendo problemas, póngase en contacto con <a href=\"%(link_urls.contact_us)s\" target=\"_blank\">el servicio de asistencia técnica %(platform_name)s</a> ."
+"Si sigue teniendo problemas, póngase en contacto con <a href=\"__PO_PROT_0__\" target=\"_blank\">el servicio de asistencia técnica %(platform_name)s</a> ."
 
 #: templates/proctored_exam/instructions.html:6
 msgid ""
@@ -1041,7 +1041,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"}La supervisión de su examen se proporciona a través de %(provider_name)s. Si tiene preguntas sobre el estado de su examen de incorporación, comuníquese con <a href=\"mailto:%(integration_specific_email)s\">%(integration_specific_email)s</a> ."
+"}La supervisión de su examen se proporciona a través de %(provider_name)s. Si tiene preguntas sobre el estado de su examen de incorporación, comuníquese con <a href=\"mailto:__PO_PROT_1__\">%(integration_specific_email)s</a> ."
 
 #: templates/proctored_exam/pending-prerequisites.html:9
 msgid ""
@@ -1081,11 +1081,7 @@ msgid ""
 " From this point in time, you must follow the <a "
 "href=\"%(link_urls.online_proctoring_rules)s\" target=\"_blank\">online "
 "proctoring rules</a> to pass the proctoring review for your exam. "
-msgstr ""
-"A partir de este momento, debe seguir las <a "
-"href=\"%(link_urls.online_proctoring_rules)s\" target=\"_blank\">reglas de "
-"supervisión en línea</a> para aprobar la revisión de supervisión de su "
-"examen."
+msgstr "A partir de este momento, debe seguir las <a href=\"__PO_PROT_0__\" target=\"_blank\">reglas de supervisión en línea</a> para aprobar la revisión de supervisión de su examen."
 
 #: templates/proctored_exam/proctoring_launch_callback.html:168
 msgid ""
@@ -1106,7 +1102,7 @@ msgid ""
 "          "
 msgstr ""
 "\n"
-"Regrese a la ventana del curso %(platform_name)s para comenzar su examen. Cuando haya terminado su examen y lo haya marcado como completo, puede cerrar esta ventana para finalizar la sesión de supervisión y cargar los datos de la sesión de supervisión para su revisión."
+"Regrese a la ventana del taller %(platform_name)s para comenzar su examen. Cuando haya terminado su examen y lo haya marcado como completo, puede cerrar esta ventana para finalizar la sesión de supervisión y cargar los datos de la sesión de supervisión para su revisión."
 
 #: templates/proctored_exam/ready_to_resume.html:4
 msgid ""

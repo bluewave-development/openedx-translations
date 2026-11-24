@@ -503,7 +503,7 @@ msgid ""
 "This feature is being enabled by the course-level setting. It can be found "
 "under the Open Response Assessment Settings card on the Pages & Resources "
 "studio page."
-msgstr ""
+msgstr "This feature is being enabled by the workshop-level setting. It can be found under the Open Response Assessment Settings card on the Pages & Resources studio page."
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:60
 msgid "Grading strategy for the peer assessment"
@@ -625,7 +625,7 @@ msgstr ""
 
 #: templates/legacy/edit/oa_edit_schedule.html:22
 msgid "Match deadlines to the course end date"
-msgstr ""
+msgstr "Match deadlines to the workshop end date"
 
 #: templates/legacy/edit/oa_edit_schedule.html:25
 msgid "Learn more about open response date settings"
@@ -736,7 +736,7 @@ msgstr ""
 
 #: templates/legacy/edit/oa_rubric_reuse.html:21
 msgid "No other Open Response Assessments found in course"
-msgstr ""
+msgstr "No other Open Response Assessments found in workshop"
 
 #: templates/legacy/edit/oa_rubric_reuse.html:31
 msgid "Clone"
@@ -886,13 +886,13 @@ msgstr ""
 msgid ""
 "Your feedback has been submitted. Course staff will be able to see this "
 "feedback when they review course records."
-msgstr ""
+msgstr "Your feedback has been submitted. Workshop staff will be able to see this feedback when they review workshop records."
 
 #: templates/legacy/grade/oa_grade_complete.html:140
 msgid ""
 "Course staff will be able to see any feedback that you provide here when "
 "they review course records."
-msgstr ""
+msgstr "Workshop staff will be able to see any feedback that you provide here when they review workshop records."
 
 #: templates/legacy/grade/oa_grade_complete.html:146
 msgid ""
@@ -1010,13 +1010,13 @@ msgid ""
 "Your team’s submission has been cancelled. Your team will receive a grade of "
 "zero unless course staff resets your assessment to allow the team to "
 "resubmit a response."
-msgstr ""
+msgstr "Your team’s submission has been cancelled. Your team will receive a grade of zero unless workshop staff resets your assessment to allow the team to resubmit a response."
 
 #: templates/legacy/message/oa_message_cancelled.html:10
 msgid ""
 "Your submission has been cancelled. You will receive a grade of zero unless "
 "course staff resets your assessment to allow you to resubmit a response."
-msgstr ""
+msgstr "Your submission has been cancelled. You will receive a grade of zero unless workshop staff resets your assessment to allow you to resubmit a response."
 
 #: templates/legacy/message/oa_message_closed.html:8
 msgid ""
@@ -1219,7 +1219,7 @@ msgid ""
 "Caution: These files were uploaded by another course learner and have not "
 "been verified, screened, approved, reviewed, or endorsed by the site "
 "administrator. If you access the files, you do so at your own risk.)"
-msgstr ""
+msgstr "Caution: These files were uploaded by another workshop learner and have not been verified, screened, approved, reviewed, or endorsed by the site administrator. If you access the files, you do so at your own risk.)"
 
 #: templates/legacy/peer/oa_peer_assessment.html:36
 msgid "Assess Peers"
@@ -1236,6 +1236,9 @@ msgid ""
 "language=\"%(user_language)s\"></span>\n"
 "            "
 msgstr ""
+"\n"
+"            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-datetime=\"__PO_PROT_0__\" data-string=\"available __PO_PROT_4__ (in __PO_PROT_1__)\" data-timezone=\"__PO_PROT_2__\" data-language=\"__PO_PROT_3__\"></span>\n"
+"            "
 
 #. Translators: This string displays a date to the user, then tells them the time until that date.  Example: "due August 13th, 2014 00:00 UTC (in 5 days and 45 minutes)"
 #: templates/legacy/peer/oa_peer_assessment.html:51
@@ -1248,6 +1251,9 @@ msgid ""
 "language=\"%(user_language)s\"></span>\n"
 "            "
 msgstr ""
+"\n"
+"            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-datetime=\"__PO_PROT_0__\" data-string=\"due __PO_PROT_4__ (in __PO_PROT_1__)\" data-timezone=\"__PO_PROT_2__\" data-language=\"__PO_PROT_3__\"></span>\n"
+"            "
 
 #: templates/legacy/peer/oa_peer_assessment.html:61
 #, python-format
@@ -1375,6 +1381,9 @@ msgid ""
 "language=\"%(user_language)s\"></span>\n"
 "            "
 msgstr ""
+"\n"
+"            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"__PO_PROT_0__\" data-string=\"available __PO_PROT_4__ (in __PO_PROT_1__)\" data-timezone=\"__PO_PROT_2__\" data-language=\"__PO_PROT_3__\"></span>\n"
+"            "
 
 #. Translators: This string displays a date to the user, then tells them the time until that date.  Example: "due August 13th, 2014 (in 5 days and 45 minutes)"
 #: templates/legacy/response/oa_response.html:46
@@ -1387,6 +1396,9 @@ msgid ""
 "language=\"%(user_language)s\"></span>\n"
 "            "
 msgstr ""
+"\n"
+"            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"__PO_PROT_0__\" data-string=\"due __PO_PROT_4__ (in __PO_PROT_1__)\" data-timezone=\"__PO_PROT_2__\" data-language=\"__PO_PROT_3__\"></span>\n"
+"            "
 
 #: templates/legacy/response/oa_response.html:54
 #: templates/legacy/self/oa_self_assessment.html:56
@@ -1432,7 +1444,7 @@ msgstr ""
 msgid ""
 "Your work will save automatically and you can return to complete your "
 "response at any time before the course ends "
-msgstr ""
+msgstr "Your work will save automatically and you can return to complete your response at any time before the workshop ends "
 
 #: templates/legacy/response/oa_response.html:96
 msgid ""
@@ -1666,7 +1678,7 @@ msgid ""
 "longer submit a response or continue with this problem, and you will receive "
 "a grade of Incomplete. If you saved but did not submit a response, the "
 "response appears in the course records."
-msgstr ""
+msgstr "The due date for this step has passed. This step is now closed. You can no longer submit a response or continue with this problem, and you will receive a grade of Incomplete. If you saved but did not submit a response, the response appears in the workshop records."
 
 #: templates/legacy/response/oa_response_graded.html:20
 #: templates/legacy/response/oa_response_submitted.html:20
@@ -1745,6 +1757,12 @@ msgid ""
 "                            options for this assignment.\n"
 "                        "
 msgstr ""
+"\n"
+"                            You joined Team %(team_name)s after they submitted a response for this assignment\n"
+"                            and you will not receive a grade for their response. You have also not previously submitted\n"
+"                            a response to this assignment with another team. Please contact workshop staff to discuss your\n"
+"                            options for this assignment.\n"
+"                        "
 
 #: templates/legacy/self/oa_self_assessment.html:33
 msgid "Assess Your Response"
@@ -1761,6 +1779,9 @@ msgid ""
 "language=\"%(user_language)s\"></span>\n"
 "           "
 msgstr ""
+"\n"
+"               <span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-datetime=\"__PO_PROT_0__\" data-string=\"available __PO_PROT_4__ (in __PO_PROT_1__)\" data-timezone=\"__PO_PROT_2__\" data-language=\"__PO_PROT_3__\"></span>\n"
+"           "
 
 #. Translators: This string displays a date to the user, then tells them the time until that date.  Example: "due August 13th, 2014 (in 5 days and 45 minutes)"
 #: templates/legacy/self/oa_self_assessment.html:48
@@ -1773,6 +1794,9 @@ msgid ""
 "language=\"%(user_language)s\"></span>\n"
 "           "
 msgstr ""
+"\n"
+"               <span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-datetime=\"__PO_PROT_0__\" data-string=\"due __PO_PROT_4__ (in __PO_PROT_1__)\" data-timezone=\"__PO_PROT_2__\" data-language=\"__PO_PROT_3__\"></span>\n"
+"           "
 
 #: templates/legacy/self/oa_self_assessment.html:88
 msgid "Submit your assessment"
@@ -2098,7 +2122,7 @@ msgstr ""
 msgid ""
 "Grades are frozen. Grades are automatically frozen 30 days after the course "
 "end date."
-msgstr ""
+msgstr "Grades are frozen. Grades are automatically frozen 30 days after the workshop end date."
 
 #: templates/legacy/staff_area/oa_student_info.html:212
 msgid ""
@@ -2191,6 +2215,9 @@ msgid ""
 "language=\"%(user_language)s\"></span>\n"
 "            "
 msgstr ""
+"\n"
+"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"__PO_PROT_0__\" data-string=\"available __PO_PROT_4__ (in __PO_PROT_1__)\" data-timezone=\"__PO_PROT_2__\" data-language=\"__PO_PROT_3__\"></span>\n"
+"            "
 
 #. Translators: This string displays a date to the user, then tells them the time until that date.  Example: "due August 13th, 2014 (in 5 days and 45 minutes)"
 #: templates/legacy/student_training/student_training.html:45
@@ -2203,6 +2230,9 @@ msgid ""
 "span>\n"
 "            "
 msgstr ""
+"\n"
+"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"__PO_PROT_0__\" data-string=\"due __PO_PROT_4__ (in __PO_PROT_1__)\" data-timezone=\"__PO_PROT_2__\" data-language=\"__PO_PROT_3__\"></span>\n"
+"            "
 
 #: templates/legacy/student_training/student_training.html:58
 #: templates/legacy/student_training/student_training.html:66

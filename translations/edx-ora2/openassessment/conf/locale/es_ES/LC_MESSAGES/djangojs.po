@@ -113,7 +113,7 @@ msgstr "La entrega no ha podido eliminarse del tablón de calificaciones."
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
 #: xblock/static/js/src/oa_server.js:696
 msgid "Multiple teams returned for course"
-msgstr "Varios equipos han regresado por curso"
+msgstr "Varios equipos han regresado por taller"
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:8
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
@@ -251,9 +251,7 @@ msgstr "Cancelar"
 #: xblock/static/js/src/lms/oa_response.js:272
 msgid ""
 "There is still file upload in progress. Please wait until it is finished."
-msgstr ""
-"Todavía hay una carga de archivos en curso. Por favor, espere hasta que "
-"termine."
+msgstr "Todavía hay una carga de archivos en taller. Por favor, espere hasta que termine."
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_response.js:262
@@ -338,10 +336,7 @@ msgstr "Cada archivo individual debe tener {max_files_mb}MB como máximo."
 msgid ""
 "File upload failed: unsupported file type. Only the supported file types can"
 " be uploaded. If you have questions, please reach out to the course team."
-msgstr ""
-"Error al cargar el archivo: tipo de archivo no admitido. Solo se pueden "
-"cargar los tipos de archivos admitidos. Si tienes alguna pregunta, contacta "
-"con el equipo del curso."
+msgstr "Error al cargar el archivo: tipo de archivo no admitido. Solo se pueden cargar los tipos de archivos admitidos. Si tienes alguna pregunta, contacta con el equipo del taller."
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_response.js:680
