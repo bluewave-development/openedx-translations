@@ -32,7 +32,7 @@ msgstr "Esta sección no pudo ser cargada."
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
 #: xblock/static/js/src/oa_server.js:159
 msgid "The staff assessment form could not be loaded."
-msgstr "La valoración del equipo del taller no pudo ser cargada."
+msgstr "La valoración del equipo del curso no pudo ser cargada."
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:8
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
@@ -117,7 +117,7 @@ msgstr "La entrega no pudo ser eliminada de la lista de evaluaciones"
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
 #: xblock/static/js/src/oa_server.js:696
 msgid "Multiple teams returned for course"
-msgstr "Varios equipos encontrados para el taller"
+msgstr "Varios equipos encontrados para el curso"
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:8
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
@@ -207,7 +207,7 @@ msgstr "Esperando"
 #: xblock/static/js/src/lms/oa_course_items_listing.js:153
 #: xblock/static/js/src/lms/oa_course_items_listing.js:154
 msgid "Staff"
-msgstr "Equipo del Taller"
+msgstr "Equipo del Curso"
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:309
 #: xblock/static/js/src/lms/oa_course_items_listing.js:161
@@ -255,7 +255,9 @@ msgstr "Cancelar"
 #: xblock/static/js/src/lms/oa_response.js:272
 msgid ""
 "There is still file upload in progress. Please wait until it is finished."
-msgstr "Todavía hay una carga de archivos en taller. Por favor espere hasta que termine."
+msgstr ""
+"Todavía hay una carga de archivos en curso. Por favor espere hasta que "
+"termine."
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_response.js:262
@@ -368,7 +370,10 @@ msgstr ""
 msgid ""
 "File upload failed: unsupported file type. Only the supported file types can"
 " be uploaded. If you have questions, please reach out to the course team."
-msgstr "Carga de archivo fallida: tipo de archivo no soportado. Solo los tipos de archivos soportados podrán ser cargados. Si presentas dudas, por favor ponte en contacto con el equipo del taller encargado. "
+msgstr ""
+"Carga de archivo fallida: tipo de archivo no soportado. Solo los tipos de "
+"archivos soportados podrán ser cargados. Si presentas dudas, por favor ponte"
+" en contacto con el equipo del curso encargado. "
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_response.js:680

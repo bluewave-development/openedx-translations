@@ -114,7 +114,7 @@ msgstr ""
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
 #: xblock/static/js/src/oa_server.js:696
 msgid "Multiple teams returned for course"
-msgstr "Multiple teams returned for workshop"
+msgstr ""
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:8
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
@@ -354,7 +354,7 @@ msgstr ""
 msgid ""
 "File upload failed: unsupported file type. Only the supported file types can "
 "be uploaded. If you have questions, please reach out to the course team."
-msgstr "File upload failed: unsupported file type. Only the supported file types can be uploaded. If you have questions, please reach out to the workshop team."
+msgstr ""
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_response.js:680

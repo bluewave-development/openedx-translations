@@ -72,7 +72,7 @@ msgstr ""
 
 #: default_data.py:27
 msgid "Of course it goes here! It goes anywhere!"
-msgstr "Of workshop it goes here! It goes anywhere!"
+msgstr ""
 
 #: default_data.py:29
 msgid "Goes to the top"
@@ -272,7 +272,7 @@ msgid ""
 "Information about zones, items, feedback, explanation and background image "
 "for this problem. This information is derived from the input that a course "
 "author provides via the interactive editor when configuring the problem."
-msgstr "Information about zones, items, feedback, explanation and background image for this problem. This information is derived from the input that a workshop author provides via the interactive editor when configuring the problem."
+msgstr ""
 
 #: drag_and_drop_v2.py:210
 msgid ""
@@ -304,7 +304,7 @@ msgstr ""
 #: drag_and_drop_v2.py:568
 #, python-brace-format
 msgid "Unknown DnDv2 mode {mode} - course is misconfigured"
-msgstr "Unknown DnDv2 mode {mode} - workshop is misconfigured"
+msgstr ""
 
 #: drag_and_drop_v2.py:643
 msgid "show_answer handler should only be called for assessment mode"

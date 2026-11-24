@@ -238,19 +238,21 @@ msgstr "Su exportación ha fallado."
 
 #: cms/static/js/factories/manage_users.js:11
 msgid "Already a course team member"
-msgstr "Ya un miembro del equipo del taller."
+msgstr "Ya un miembro del equipo del curso."
 
 #: cms/static/js/factories/manage_users.js:13
 msgid ""
 "Are you sure you want to delete {email} from the course team for "
 "“{container}”?"
-msgstr "¿Está seguro de que desea borrar {email} del equipo del taller  “{container}”?"
+msgstr ""
+"¿Está seguro de que desea borrar {email} del equipo del curso  "
+"“{container}”?"
 
 #: cms/static/js/factories/manage_users.js:20
 #: cms/static/js/factories/manage_users_lib.js:22
 #: common/static/common/templates/discussion/templates.underscore:344
 msgid "Staff"
-msgstr "Equipo del taller"
+msgstr "Equipo del curso"
 
 #: cms/static/js/factories/manage_users.js:20
 #: cms/static/js/factories/manage_users_lib.js:23
@@ -315,7 +317,7 @@ msgstr ""
 
 #: cms/static/js/features/import/factories/import.js:58
 msgid "There was an error while importing the new course to our database."
-msgstr "Ha habido un error importando el nuevo taller a nuestra base de datos."
+msgstr "Ha habido un error importando el nuevo curso a nuestra base de datos."
 
 #: cms/static/js/features/import/factories/import.js:121
 msgid "Your import has failed."
@@ -329,7 +331,7 @@ msgstr ""
 
 #: cms/static/js/features/import/views/import.js:253
 msgid "Error importing course"
-msgstr "Error al importar el taller"
+msgstr "Error al importar el curso"
 
 #: cms/static/js/features/import/views/import.js:298
 msgid "There was an error with the upload"
@@ -409,15 +411,18 @@ msgstr "Todos los equipos deben tener un nombre único."
 
 #: cms/static/js/models/settings/course_details.js:59
 msgid "The course must have an assigned start date."
-msgstr "El taller debe tener asignada una fecha de inicio."
+msgstr "El curso debe tener asignada una fecha de inicio."
 
 #: cms/static/js/models/settings/course_details.js:63
 msgid "The course end date must be later than the course start date."
-msgstr "La fecha de finalización del taller debe ser posterior a la fecha de inicio."
+msgstr ""
+"La fecha de finalización del curso debe ser posterior a la fecha de inicio."
 
 #: cms/static/js/models/settings/course_details.js:68
 msgid "The course start date must be later than the enrollment start date."
-msgstr "La fecha de inicio del taller debe ser posterior a la fecha de inicio de inscripciones."
+msgstr ""
+"La fecha de inicio del curso debe ser posterior a la fecha de inicio de "
+"inscripciones."
 
 #: cms/static/js/models/settings/course_details.js:74
 msgid "The enrollment start date cannot be after the enrollment end date."
@@ -427,11 +432,15 @@ msgstr ""
 
 #: cms/static/js/models/settings/course_details.js:78
 msgid "The enrollment end date cannot be after the course end date."
-msgstr "La fecha de finalización de inscripciones no puede ser posterior a la fecha de finalización del taller."
+msgstr ""
+"La fecha de finalización de inscripciones no puede ser posterior a la fecha "
+"de finalización del curso."
 
 #: cms/static/js/models/settings/course_details.js:83
 msgid "The certificate available date must be later than the course end date."
-msgstr "La fecha disponible para el certificado debe ser más tarde que la fecha de terminación del taller."
+msgstr ""
+"La fecha disponible para el certificado debe ser más tarde que la fecha de "
+"terminación del curso."
 
 #: cms/static/js/models/settings/course_details.js:93
 msgid "The certificate display behavior must be one of: {behavior_options}"
@@ -737,7 +746,7 @@ msgstr "Se produjeron algunos errores"
 #: cms/static/js/views/pages/container.js:421
 #: cms/static/js/views/utils/xblock_utils.js:98
 msgid "The following required files could not be added to the course:"
-msgstr "Los siguientes archivos obligatorios no se pudieron agregar al taller:"
+msgstr "Los siguientes archivos obligatorios no se pudieron agregar al curso:"
 
 #: cms/static/js/views/course_outline.js:395
 #: cms/static/js/views/pages/container.js:429
@@ -751,7 +760,9 @@ msgstr "Es posible que deba actualizar un archivo (s) manualmente"
 msgid ""
 "The following files already exist in this course but don't match the version"
 " used by the component you pasted:"
-msgstr "Los siguientes archivos ya existen en este taller, pero no coinciden con la versión utilizada por el componente que pegó:"
+msgstr ""
+"Los siguientes archivos ya existen en este curso, pero no coinciden con la "
+"versión utilizada por el componente que pegó:"
 
 #: cms/static/js/views/course_outline.js:407
 #: cms/static/js/views/pages/container.js:441
@@ -763,7 +774,7 @@ msgstr "Nuevos archivos agregados a Archivos y cargas."
 #: cms/static/js/views/pages/container.js:443
 #: cms/static/js/views/utils/xblock_utils.js:120
 msgid "The following required files were imported to this course:"
-msgstr "Los siguientes archivos obligatorios no se pudieron agregar al taller:"
+msgstr "Los siguientes archivos obligatorios no se pudieron agregar al curso:"
 
 #: cms/static/js/views/course_outline.js:414
 #: cms/static/js/views/pages/container.js:448
@@ -1167,7 +1178,7 @@ msgstr "Destacados por {display_name}"
 
 #: cms/static/js/views/modals/course_outline_modals.js:279
 msgid "Enable Course Highlight Emails"
-msgstr "Habilitar correos electrónicos destacados del taller "
+msgstr "Habilitar correos electrónicos destacados del curso "
 
 #: cms/static/js/views/modals/course_outline_modals.js:297
 msgid "Enable"
@@ -1183,7 +1194,7 @@ msgstr "Compartir subsección {display_name}"
 
 #: cms/static/js/views/modals/course_outline_modals.js:973
 msgid "All Learners and Staff"
-msgstr "Todos los estudiantes y equipo del taller"
+msgstr "Todos los estudiantes y equipo del curso"
 
 #. #-#-#-#-#  djangojs.po (0.1a)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
@@ -1327,7 +1338,7 @@ msgstr "Esta {parentCategory} no tiene {childCategory}"
 #: cms/templates/js/group-configuration-details.underscore:88
 #: cms/templates/js/partition-group-details.underscore:63
 msgid "Course Outline"
-msgstr "Estructura del taller"
+msgstr "Estructura del curso"
 
 #: cms/static/js/views/paged_container.js:260
 msgid "Date added"
@@ -1396,11 +1407,11 @@ msgstr "Haciendo visible a los estudiantes"
 
 #: cms/static/js/views/pages/course_outline.js:248
 msgid "Course Index"
-msgstr "Indice de Taller"
+msgstr "Indice de Curso"
 
 #: cms/static/js/views/pages/course_outline.js:256
 msgid "There were errors reindexing course."
-msgstr "Hubo errores al reindexar el taller."
+msgstr "Hubo errores al reindexar el curso."
 
 #: cms/static/js/views/pages/paged_container.js:46
 msgid "Hide Previews"
@@ -1481,7 +1492,10 @@ msgstr "¿Está seguro que quiere eliminar este video de la lista?"
 msgid ""
 "Removing a video from this list does not affect course content. Any content "
 "that uses a previously uploaded video ID continues to display in the course."
-msgstr "Eliminar un video de esta lista no afecta el contenido del taller. Cualquier contenido que use un ID de un video cargado con anterioridad se seguirá mostrando en el taller."
+msgstr ""
+"Eliminar un video de esta lista no afecta el contenido del curso. Cualquier "
+"contenido que use un ID de un video cargado con anterioridad se seguirá "
+"mostrando en el curso."
 
 #: cms/static/js/views/previous_video_upload.js:81
 #: cms/static/js/views/video/translations_editor.js:177
@@ -1520,15 +1534,18 @@ msgstr ""
 
 #: cms/static/js/views/settings/main.js:62
 msgid "Course Credit Requirements"
-msgstr "Requerimientos de créditos para el taller"
+msgstr "Requerimientos de créditos para el curso"
 
 #: cms/static/js/views/settings/main.js:63
 msgid "The minimum grade for course credit is not set."
-msgstr "La calificación mínima para obtener créditos por el taller no está definida."
+msgstr ""
+"La calificación mínima para obtener créditos por el curso no está definida."
 
 #: cms/static/js/views/settings/main.js:155
 msgid "Course pacing cannot be changed once a course has started."
-msgstr "El ritmo del taller no puede ser modificado una vez que el taller haya iniciado."
+msgstr ""
+"El ritmo del curso no puede ser modificado una vez que el curso haya "
+"iniciado."
 
 #: cms/static/js/views/settings/main.js:223
 msgid "{hours}:{minutes} (current UTC time)"
@@ -1536,7 +1553,7 @@ msgstr "{hours}:{minutes} (hora UTC actual)"
 
 #: cms/static/js/views/settings/main.js:457
 msgid "Upload your course image."
-msgstr "Cargar la imagen para su taller"
+msgstr "Cargar la imagen para su curso"
 
 #: cms/static/js/views/settings/main.js:463
 msgid "Upload your banner image."
@@ -1554,7 +1571,9 @@ msgstr "Eliminar “<%- name %>”?"
 msgid ""
 "Deleting a textbook cannot be undone and once deleted any reference to it in"
 " your courseware's navigation will also be removed."
-msgstr "El borrado de un libro de texto no se puede deshacer y una vez borrado, cualquier referencia al mismo en la navegación del taller será eliminada."
+msgstr ""
+"El borrado de un libro de texto no se puede deshacer y una vez borrado, "
+"cualquier referencia al mismo en la navegación del curso será eliminada."
 
 #: cms/static/js/views/tabs.js:160
 msgid "Delete Page Confirmation"
@@ -1581,7 +1600,9 @@ msgstr "Lo sentimos, ha habido un error"
 msgid ""
 "The combined length of the organization, course number, and course run "
 "fields cannot be more than <%- limit %> characters."
-msgstr "La duración combinada de los campos de organización, número de taller y ejecución del taller no puede ser superior a <%- limit %> carácteres."
+msgstr ""
+"La duración combinada de los campos de organización, número de curso y "
+"ejecución del curso no puede ser superior a <%- limit %> carácteres."
 
 #: cms/static/js/views/utils/create_library_utils.js:9
 msgid ""
@@ -2462,17 +2483,19 @@ msgstr "Remover archivo"
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:17
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:43
 msgid "Course Name"
-msgstr "Título del taller"
+msgstr "Título del curso"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:20
 msgid ""
 "For inquiries regarding assignments, grades, or structure of a specific "
 "course, please post in the discussion forums for that course directly."
-msgstr "Para preguntas sobre ejercicios, calificaciones o estructura de un taller específico, por favor publica tu pregunta en el foro de discusión del taller."
+msgstr ""
+"Para preguntas sobre ejercicios, calificaciones o estructura de un curso "
+"específico, por favor publica tu pregunta en el foro de discusión del curso."
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:30
 msgid "Not specific to a course"
-msgstr "No específico para un taller"
+msgstr "No específico para un curso"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:50
 #: lms/static/js/instructor_dashboard/util.js:200
@@ -2498,7 +2521,7 @@ msgstr "Certificados"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:56
 msgid "Course Content"
-msgstr "Contenidos del taller"
+msgstr "Contenidos del curso"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:57
 msgid "Deadlines"
@@ -2527,7 +2550,7 @@ msgstr "Otro"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:73
 msgid "Course Discussion Forum"
-msgstr "Foro de discusión del taller"
+msgstr "Foro de discusión del curso"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:90
 msgid ""
@@ -2535,7 +2558,12 @@ msgid ""
 "staff has the expertise for specific assignment questions, grading or the "
 "proper procedures in each course. Please post all course related questions "
 "within the Discussion Forum where the Course Staff can directly respond."
-msgstr "Si bien nuestro equipo de soporte está encantado de ayudar con la plataforma edX, el personal del taller tiene la experiencia para preguntas específicas del taller, calificación o los procedimientos adecuados en cada taller. Publique todas las preguntas relacionadas con el taller en el Foro de discusión donde el personal del taller pueda responder directamente."
+msgstr ""
+"Si bien nuestro equipo de soporte está encantado de ayudar con la plataforma"
+" edX, el personal del curso tiene la experiencia para preguntas específicas "
+"del curso, calificación o los procedimientos adecuados en cada curso. "
+"Publique todas las preguntas relacionadas con el curso en el Foro de "
+"discusión donde el personal del curso pueda responder directamente."
 
 #: lms/djangoapps/support/static/support/jsx/logged_out_user.jsx:15
 msgid "Sign in to {platform} so we can help you better."
@@ -2545,7 +2573,9 @@ msgstr "Ingrese a  {platform} para que podamos ayudarle mejor."
 msgid ""
 "Select a course or select \"Not specific to a course\" for your support "
 "request."
-msgstr "Seleccione un taller o seleccione \"No específico para un taller\" para su solicitud de soporte."
+msgstr ""
+"Seleccione un curso o seleccione \"No específico para un curso\" para su "
+"solicitud de soporte."
 
 #: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:48
 msgid "Select a subject for your support request."
@@ -2894,13 +2924,18 @@ msgid ""
 "See all teams you belong to and all public teams in your course, organized "
 "by topic. Join an open public team to collaborate with other learners who "
 "are interested in the same topic as you are."
-msgstr "Vea todos los equipos a los que pertenece y todos los equipos públicos en su taller, organizados por tema. Únase a un equipo público abierto para colaborar con otros estudiantes interesados en el mismo tema que usted."
+msgstr ""
+"Vea todos los equipos a los que pertenece y todos los equipos públicos en su"
+" curso, organizados por tema. Únase a un equipo público abierto para "
+"colaborar con otros estudiantes interesados en el mismo tema que usted."
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:545
 msgid ""
 "See all teams you belong to and all public teams in your course, organized "
 "by topic."
-msgstr "Vea todos los equipos a los que pertenece y todos los equipos públicos en su taller, organizados por tema."
+msgstr ""
+"Vea todos los equipos a los que pertenece y todos los equipos públicos en su"
+" curso, organizados por tema."
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:549
 msgid "See all teams you belong to."
@@ -3279,35 +3314,45 @@ msgstr ""
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:128
 msgid " learners already appear on the exception list in this course"
-msgstr "estudiantes ya aparecen registrados en la lista de excepción de este taller"
+msgstr ""
+"estudiantes ya aparecen registrados en la lista de excepción de este curso"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:129
 msgid " learner already appears on the exception list in this course"
-msgstr "estudiante ya aparece registrado en la lista de excepción de este taller"
+msgstr ""
+"estudiante ya aparece registrado en la lista de excepción de este curso"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:134
 msgid ""
 " learners are not enrolled in this course and have not added to the "
 "exception list"
-msgstr "estudiantes no están inscritos en el taller y no se añadieron a la lista de excepciones"
+msgstr ""
+"estudiantes no están inscritos en el curso y no se añadieron a la lista de "
+"excepciones"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:136
 msgid ""
 " learner is not enrolled in this course and has not been added to the "
 "exception list"
-msgstr "estudiante no está inscrito en el taller y no se añadió a la lista de excepciones"
+msgstr ""
+"estudiante no está inscrito en el curso y no se añadió a la lista de "
+"excepciones"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:142
 msgid ""
 " learners have an active certificate invalidation in this course and have "
 "not been added to the exception list"
-msgstr "estudiantes tienen una invalidación de certificado activa en este taller y por lo tanto no han sido añadidos a la lista de excepción"
+msgstr ""
+"estudiantes tienen una invalidación de certificado activa en este curso y "
+"por lo tanto no han sido añadidos a la lista de excepción"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:144
 msgid ""
 " learner has an active certificate invalidation in this course and has not "
 "been added to the exception list"
-msgstr "estudiante tiene una invalidación de certificado activa en este taller y por lo tanto no ha sido añadido a la lista de excepción"
+msgstr ""
+"estudiante tiene una invalidación de certificado activa en este curso y por "
+"lo tanto no ha sido añadido a la lista de excepción"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:150
 msgid " learners encountered unknown errors"
@@ -3405,11 +3450,15 @@ msgstr "No le será devuelto el valor pagado."
 msgid ""
 "Are you sure you want to unenroll from the purchased course {courseName} "
 "({courseNumber})?"
-msgstr "¿Seguro que quieres cancelar tu inscripción al taller pagado {courseName} ({courseNumber})?"
+msgstr ""
+"¿Seguro que quieres cancelar tu inscripción al curso pagado {courseName} "
+"({courseNumber})?"
 
 #: lms/static/js/dashboard/legacy.js:100
 msgid "Are you sure you want to unenroll from {courseName} ({courseNumber})?"
-msgstr "¿Seguro que quieres cancelar tu inscripción al taller {courseName} ({courseNumber})?"
+msgstr ""
+"¿Seguro que quieres cancelar tu inscripción al curso {courseName} "
+"({courseNumber})?"
 
 #: lms/static/js/dashboard/legacy.js:103 lms/static/js/dashboard/legacy.js:106
 msgid ""
@@ -3431,7 +3480,9 @@ msgstr ""
 msgid ""
 "The refund deadline for this course has passed, so you will not receive a "
 "refund."
-msgstr "Tu fecha límite para devolución en este taller ha pasado, por lo que no recibirás una devolución."
+msgstr ""
+"Tu fecha límite para devolución en este curso ha pasado, por lo que no "
+"recibirás una devolución."
 
 #: lms/static/js/dashboard/legacy.js:190 lms/static/js/dashboard/legacy.js:200
 #: lms/static/js/learner_dashboard/views/unenroll_view.js:94
@@ -3446,8 +3497,8 @@ msgstr ""
 #, javascript-format
 msgid "Viewing %s course"
 msgid_plural "Viewing %s courses"
-msgstr[0] "Viendo el taller %s"
-msgstr[1] "Ver talleres %s"
+msgstr[0] "Viendo el curso %s"
+msgstr[1] "Ver cursos %s"
 msgstr[2] "Ver %scursos "
 
 #: lms/static/js/discovery/views/search_form.js:57
@@ -3506,7 +3557,7 @@ msgstr ""
 
 #: lms/static/js/discussions_management/views/discussions.js:182
 msgid "Discussion topics in the course are not divided."
-msgstr "Temas de discusión en el taller no son divididos."
+msgstr "Temas de discusión en el curso no son divididos."
 
 #: lms/static/js/discussions_management/views/discussions.js:185
 msgid "Any divided discussion topics are divided based on enrollment track."
@@ -3571,7 +3622,7 @@ msgstr "Pestaña actual"
 
 #: lms/static/js/edxnotes/views/tabs/course_structure.js:52
 msgid "Location in Course"
-msgstr "Ubicación en el taller"
+msgstr "Ubicación en el curso"
 
 #: lms/static/js/edxnotes/views/tabs/recent_activity.js:30
 msgid "Recent Activity"
@@ -3672,9 +3723,17 @@ msgid ""
 msgid_plural ""
 "{numPreassigned} learners were pre-assigned for this cohort. These learners "
 "will automatically be added to the cohort when they enroll in the course."
-msgstr[0] "El alumno {numPreassigned} fue preasignado para esta cohorte. Este alumno se agregará automáticamente a la cohorte cuando se inscriba en el taller."
-msgstr[1] "{numPreassigned} los alumnos fueron preasignados para esta cohorte. Estos alumnos se agregarán automáticamente a la cohorte cuando se inscriban en el taller."
-msgstr[2] "{numPreassigned} los alumnos fueron preasignados para esta cohorte. Estos alumnos se agregarán automáticamente a la cohorte cuando se inscriban en el taller."
+msgstr[0] ""
+"El alumno {numPreassigned} fue preasignado para esta cohorte. Este alumno se"
+" agregará automáticamente a la cohorte cuando se inscriba en el curso."
+msgstr[1] ""
+"{numPreassigned} los alumnos fueron preasignados para esta cohorte. Estos "
+"alumnos se agregarán automáticamente a la cohorte cuando se inscriban en el "
+"curso."
+msgstr[2] ""
+"{numPreassigned} los alumnos fueron preasignados para esta cohorte. Estos "
+"alumnos se agregarán automáticamente a la cohorte cuando se inscriban en el "
+"curso."
 
 #: lms/static/js/groups/views/cohort_editor.js:276
 msgid "Unknown username: {user}"
@@ -3709,7 +3768,7 @@ msgstr "No has seleccionado el contenido del grupo"
 
 #: lms/static/js/groups/views/cohort_form.js:115
 msgid "The selected content group does not exist"
-msgstr "No existe contenido para el taller seleccionado"
+msgstr "No existe contenido para el curso seleccionado"
 
 #: lms/static/js/groups/views/cohort_form.js:143
 msgid "The cohort cannot be saved"
@@ -3769,15 +3828,17 @@ msgstr "Cohortes deshabilitados"
 
 #: lms/static/js/instructor_dashboard/certificates.js:20
 msgid "Allow students to generate certificates for this course?"
-msgstr "¿Permitir a los estudiantes generar certificados para este taller ?"
+msgstr "¿Permitir a los estudiantes generar certificados para este curso ?"
 
 #: lms/static/js/instructor_dashboard/certificates.js:22
 msgid "Prevent students from generating certificates in this course?"
-msgstr "¿Evitar que estudiantes generen certificados para este taller ?"
+msgstr "¿Evitar que estudiantes generen certificados para este curso ?"
 
 #: lms/static/js/instructor_dashboard/certificates.js:45
 msgid "Start generating certificates for all students in this course?"
-msgstr "¿Comenzar a generar los certificados para todos los estudiantes de este taller?"
+msgstr ""
+"¿Comenzar a generar los certificados para todos los estudiantes de este "
+"curso?"
 
 #: lms/static/js/instructor_dashboard/certificates.js:61
 msgid "Error while generating certificates. Please try again."
@@ -3785,7 +3846,7 @@ msgstr "Error al generar los certificados. Por favor intenta nuevamente."
 
 #: lms/static/js/instructor_dashboard/certificates.js:71
 msgid "Start regenerating certificates for students in this course?"
-msgstr "¿Iniciar regeneración de certificados para estudiantes de este taller?"
+msgstr "¿Iniciar regeneración de certificados para estudiantes de este curso?"
 
 #: lms/static/js/instructor_dashboard/certificates.js:98
 msgid "Error while regenerating certificates. Please try again."
@@ -3840,13 +3901,17 @@ msgstr "Error al obtener la lista de estudiantes."
 #: lms/static/js/instructor_dashboard/data_download.js:302
 #: lms/static/js/instructor_dashboard/data_download_2.js:50
 msgid "Error generating list of students who may enroll. Please try again."
-msgstr "Error al generar la lista de estudiantes que pueden inscribirse al taller. Por favor inténtalo nuevamente."
+msgstr ""
+"Error al generar la lista de estudiantes que pueden inscribirse al curso. "
+"Por favor inténtalo nuevamente."
 
 #: lms/static/js/instructor_dashboard/data_download.js:327
 msgid ""
 "Error generating list of inactive students who are enrolled in a course. "
 "Please try again."
-msgstr "Error al generar la lista de estudiantes inactivos que están inscritos en un taller. Por favor, inténtelo de nuevo."
+msgstr ""
+"Error al generar la lista de estudiantes inactivos que están inscritos en un"
+" curso. Por favor, inténtelo de nuevo."
 
 #: lms/static/js/instructor_dashboard/data_download.js:359
 msgid "Error retrieving grading configuration."
@@ -4095,17 +4160,21 @@ msgstr ""
 msgid ""
 "Emails successfully sent. The following users are no longer enrolled in the "
 "course:"
-msgstr "Los correos electrónicos fueron enviados exitósamente. Los siguientes usuarios ya no están inscritos en el taller:"
+msgstr ""
+"Los correos electrónicos fueron enviados exitósamente. Los siguientes "
+"usuarios ya no están inscritos en el curso:"
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:852
 msgid "The following users are no longer enrolled in the course:"
-msgstr "Los siguientes usuarios ya no están inscritos en el taller:"
+msgstr "Los siguientes usuarios ya no están inscritos en el curso:"
 
 #: lms/static/js/instructor_dashboard/membership.js:863
 msgid ""
 "These users were not affiliated with the course so could not be unenrolled:"
-msgstr "Estos usuarios no estaban vinculados con el taller, por lo que no pudieron ser retirados:"
+msgstr ""
+"Estos usuarios no estaban vinculados con el curso, por lo que no pudieron "
+"ser retirados:"
 
 #: lms/static/js/instructor_dashboard/send_email.js:68
 msgid "Your message must have a subject."
@@ -4133,11 +4202,11 @@ msgstr "Tu mismo"
 
 #: lms/static/js/instructor_dashboard/send_email.js:87
 msgid "Everyone who has staff privileges in this course"
-msgstr "todos los usuarios con rol de funcionario para este taller"
+msgstr "todos los usuarios con rol de funcionario para este curso"
 
 #: lms/static/js/instructor_dashboard/send_email.js:89
 msgid "All learners who are enrolled in this course"
-msgstr "Todos los estudiantes que están inscritos en el taller"
+msgstr "Todos los estudiantes que están inscritos en el curso"
 
 #: lms/static/js/instructor_dashboard/send_email.js:91
 msgid "All learners in the {cohort_name} cohort"
@@ -4152,7 +4221,10 @@ msgid ""
 "Your email message was successfully queued for sending. In courses with a "
 "large number of learners, email messages to learners might take up to an "
 "hour to be sent."
-msgstr "Tu mensaje fue procesado con éxito para ser enviado. En talleres con muchos estudiantes, podría requerirse hasta una hora para que el mensaje sea enviado."
+msgstr ""
+"Tu mensaje fue procesado con éxito para ser enviado. En cursos con muchos "
+"estudiantes, podría requerirse hasta una hora para que el mensaje sea "
+"enviado."
 
 #: lms/static/js/instructor_dashboard/send_email.js:100
 msgid ""
@@ -4173,15 +4245,19 @@ msgstr "Error enviando el correo electrónico."
 #: lms/static/js/instructor_dashboard/send_email.js:143
 #: lms/static/js/instructor_dashboard/send_email.js:171
 msgid "There is no email history for this course."
-msgstr "No hay historial de correos electrónicos para este taller."
+msgstr "No hay historial de correos electrónicos para este curso."
 
 #: lms/static/js/instructor_dashboard/send_email.js:152
 msgid "There was an error obtaining email task history for this course."
-msgstr "Ocurrió un error obteniendo el historial de tareas de correo para este taller."
+msgstr ""
+"Ocurrió un error obteniendo el historial de tareas de correo para este "
+"curso."
 
 #: lms/static/js/instructor_dashboard/send_email.js:180
 msgid "There was an error obtaining email content history for this course."
-msgstr "Ocurrió un error obteniendo el historial de correos electrónicos para este taller."
+msgstr ""
+"Ocurrió un error obteniendo el historial de correos electrónicos para este "
+"curso."
 
 #: lms/static/js/instructor_dashboard/send_email.js:207
 msgid "Send to:"
@@ -4583,7 +4659,9 @@ msgstr "Tienes acceso al tablero {enterpriseName}"
 msgid ""
 "To access the courses available to you through {enterpriseName}, visit the "
 "{enterpriseName} dashboard."
-msgstr "Para acceder a los talleres que tienes disponible en {enterpriseName}, visita el panel de control de {enterpriseName}."
+msgstr ""
+"Para acceder a los cursos que tienes disponible en {enterpriseName}, visita "
+"el panel de control de {enterpriseName}."
 
 #: lms/static/js/learner_dashboard/EnterpriseLearnerPortalModal.jsx:160
 msgid "Go to dashboard"
@@ -4619,7 +4697,7 @@ msgstr "Termina {end}"
 
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:220
 msgid "You must select a session to access the course."
-msgstr "Debe seleccionar una sesión para acceder al taller."
+msgstr "Debe seleccionar una sesión para acceder al curso."
 
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:247
 msgid "There was an error. Please reload the page and try again."
@@ -4651,7 +4729,8 @@ msgstr "¿Está seguro de que quiere cambiar a una sesión diferente?"
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:324
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:327
 msgid "Any course progress or grades from your current session will be lost."
-msgstr "Se perderá cualquier calificación o progreso del taller en la sesión actual. "
+msgstr ""
+"Se perderá cualquier calificación o progreso del curso en la sesión actual. "
 
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:326
 msgid "Are you sure that you want to leave this session?"
@@ -4660,13 +4739,17 @@ msgstr "¿ Está seguro de que quiere salir de esta sesión?"
 #: lms/static/js/learner_dashboard/views/entitlement_unenrollment_view.js:25
 msgid ""
 "Your unenrollment request could not be processed. Please try again later."
-msgstr "Su solicitud de cancelar la inscripción del taller no pudo ser procesada. Por favor intente de nuevo."
+msgstr ""
+"Su solicitud de cancelar la inscripción del curso no pudo ser procesada. Por"
+" favor intente de nuevo."
 
 #: lms/static/js/learner_dashboard/views/entitlement_unenrollment_view.js:118
 msgid ""
 "Are you sure you want to unenroll from {courseName} ({courseNumber})? You "
 "will be refunded the amount you paid."
-msgstr "¿ Está seguro que quiere cancelar la inscripción del taller {courseName} ({courseNumber})? Se reembolsará el dinero que pagó."
+msgstr ""
+"¿ Está seguro que quiere cancelar la inscripción del curso {courseName} "
+"({courseNumber})? Se reembolsará el dinero que pagó."
 
 #: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:62
 msgid "{type} Progress"
@@ -4811,7 +4894,9 @@ msgstr ""
 msgid ""
 "Once your account is deleted, you cannot use it to take courses on the "
 "{platformName} app, {siteName}, or any other site hosted by {platformName}."
-msgstr "Una vez tu cuenta es borrada, no podrás usarla ni tomar talleres en la app {platformName}, {siteName}, ni en cualquier otro sitio de {platformName}."
+msgstr ""
+"Una vez tu cuenta es borrada, no podrás usarla ni tomar cursos en la app "
+"{platformName}, {siteName}, ni en cualquier otro sitio de {platformName}."
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx:95
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:115
@@ -4869,7 +4954,9 @@ msgid ""
 "If you proceed, you will be unable to use this account to take courses on "
 "the {platformName} app, {siteName}, or any other site hosted by "
 "{platformName}."
-msgstr "Si procedes, no podrás usarla ni tomar talleres en la app {platformName}, {siteName}, ni en cualquier otro sitio de {platformName}."
+msgstr ""
+"Si procedes, no podrás usarla ni tomar cursos en la app {platformName}, "
+"{siteName}, ni en cualquier otro sitio de {platformName}."
 
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:172
 msgid ""
@@ -4913,19 +5000,19 @@ msgstr "Guardando tus preferencias de correo electrónico"
 
 #: lms/static/js/student_account/views/FinishAuthView.js:129
 msgid "Enrolling you in the selected course"
-msgstr "Inscribiéndote en el taller seleccionado"
+msgstr "Inscribiéndote en el curso seleccionado"
 
 #: lms/static/js/student_account/views/FinishAuthView.js:140
 msgid "course mode param is not provided"
-msgstr "el parámetro del modo del taller no está proporcionado"
+msgstr "el parámetro del modo del curso no está proporcionado"
 
 #: lms/static/js/student_account/views/FinishAuthView.js:148
 msgid "course mode param is provided"
-msgstr "se proporciona el parámetro del modo del taller"
+msgstr "se proporciona el parámetro del modo del curso"
 
 #: lms/static/js/student_account/views/FinishAuthView.js:163
 msgid "Adding the selected course to your cart"
-msgstr "Añadiendo el taller seleccionado a tu carrito de compras"
+msgstr "Añadiendo el curso seleccionado a tu carrito de compras"
 
 #: lms/static/js/student_account/views/FinishAuthView.js:167
 msgid " redirect the user to the next page"
@@ -4933,7 +5020,7 @@ msgstr " redirige al usuario a la siguiente página"
 
 #: lms/static/js/student_account/views/FinishAuthView.js:177
 msgid "Loading your courses"
-msgstr "Cargando tus talleres"
+msgstr "Cargando tus cursos"
 
 #: lms/static/js/student_account/views/FormView.js:20
 #: lms/static/js/student_account/views/RegisterView.js:150
@@ -5240,13 +5327,15 @@ msgstr "MB"
 
 #: lms/static/lms/js/preview/preview_factory.js:13
 msgid "Course is not yet visible to students."
-msgstr "El taller aún no está visible para los estudiantes."
+msgstr "El curso aún no está visible para los estudiantes."
 
 #: lms/static/lms/js/preview/preview_factory.js:24
 msgid ""
 "You cannot view the course as a student or beta tester before the course "
 "release date."
-msgstr "No se puede ver el taller como estudiante ni como usuario de prueba antes de la fecha de lanzamiento del taller."
+msgstr ""
+"No se puede ver el curso como estudiante ni como usuario de prueba antes de "
+"la fecha de lanzamiento del curso."
 
 #: lms/templates/courseware/progress_graph.js:294
 msgid "Overall Score"
@@ -6721,7 +6810,9 @@ msgstr "Explicación"
 msgid ""
 "Sequence error! Cannot navigate to %(tab_name)s in the current "
 "SequenceModule. Please contact the course staff."
-msgstr "¡Error de secuencia! No se ha podido navegar a %(tab_name)s en el actual SequenceModule. Por favor contacta al equipo del taller."
+msgstr ""
+"¡Error de secuencia! No se ha podido navegar a %(tab_name)s en el actual "
+"SequenceModule. Por favor contacta al equipo del curso."
 
 #: xmodule/js/src/video/00_i18n.js:15
 #: xmodule/js/src/video/09_play_pause_control.js:30
@@ -7071,7 +7162,7 @@ msgstr "Descontinuado"
 
 #: cms/templates/js/asset-library.underscore:5
 msgid "List of uploaded files and assets in this course"
-msgstr "Lista de archivos y recursos cargados en este taller"
+msgstr "Lista de archivos y recursos cargados en este curso"
 
 #: cms/templates/js/asset-library.underscore:20
 #: cms/templates/js/asset-library.underscore:53
@@ -7092,7 +7183,7 @@ msgstr "Acciones"
 
 #: cms/templates/js/asset-library.underscore:67
 msgid "You haven't added any assets to this course yet."
-msgstr "No ha añadido aún ningún recurso a este taller."
+msgstr "No ha añadido aún ningún recurso a este curso."
 
 #: cms/templates/js/asset-library.underscore:67
 msgid "Upload your first asset"
@@ -7144,20 +7235,20 @@ msgstr "Detalles del certificado"
 #: cms/templates/js/certificate-details.underscore:23
 #: cms/templates/js/certificate-editor.underscore:26
 msgid "Course Title"
-msgstr "Título del taller"
+msgstr "Título del curso"
 
 #: cms/templates/js/certificate-details.underscore:28
 #: cms/templates/js/certificate-editor.underscore:30
 msgid "Course Title Override"
-msgstr "Reemplazo para el título del taller"
+msgstr "Reemplazo para el título del curso"
 
 #: cms/templates/js/certificate-details.underscore:36
 msgid "Course Number"
-msgstr "Código del taller"
+msgstr "Código del curso"
 
 #: cms/templates/js/certificate-details.underscore:42
 msgid "Course Number Override"
-msgstr "Reemplazo para el número de taller"
+msgstr "Reemplazo para el número de curso"
 
 #: cms/templates/js/certificate-details.underscore:53
 #: cms/templates/js/certificate-editor.underscore:36
@@ -7195,13 +7286,15 @@ msgstr "Descripción del certificado"
 
 #: cms/templates/js/certificate-editor.underscore:31
 msgid "Course title"
-msgstr "Título del taller"
+msgstr "Título del curso"
 
 #: cms/templates/js/certificate-editor.underscore:32
 msgid ""
 "Specify an alternative to the official course title to display on "
 "certificates. Leave blank to use the official course title."
-msgstr "Especificar una alternativa al título oficial del taller para ser visualizado en los certificados. Dejar vacío para utilizar el título oficial del taller."
+msgstr ""
+"Especificar una alternativa al título oficial del curso para ser visualizado"
+" en los certificados. Dejar vacío para utilizar el título oficial del curso."
 
 #: cms/templates/js/certificate-editor.underscore:41
 msgid "Add Additional Signatory"
@@ -7308,7 +7401,10 @@ msgstr "Ocultar el contenido después de la fecha límite"
 msgid ""
 "After the course\\'s end date has passed, learners can no longer access "
 "subsection content. The subsection remains included in grade calculations."
-msgstr "Después que la fecha de caducidad del taller haya pasado, los estudiantes ya no pueden acceder a las subsección del contenido. La subsección permanece incluida en el cálculo del grado."
+msgstr ""
+"Después que la fecha de caducidad del curso haya pasado, los estudiantes ya "
+"no pueden acceder a las subsección del contenido. La subsección permanece "
+"incluida en el cálculo del grado."
 
 #: cms/templates/js/content-visibility-editor.underscore:28
 msgid ""
@@ -7327,7 +7423,9 @@ msgstr "Ocultar toda la subsección"
 msgid ""
 "Learners do not see the subsection in the course outline. The subsection is "
 "not included in grade calculations."
-msgstr "Los estudiantes no ven la subsección en el esquema del taller. La subsección no se incluye en los cálculos de calificaciones."
+msgstr ""
+"Los estudiantes no ven la subsección en el esquema del curso. La subsección "
+"no se incluye en los cálculos de calificaciones."
 
 #: cms/templates/js/content-visibility-editor.underscore:42
 #, python-format
@@ -7346,7 +7444,7 @@ msgstr "Copiar la ubicación del Componente"
 
 #: cms/templates/js/course-highlights-enable.underscore:3
 msgid "Course Highlight Emails"
-msgstr "Correos destacados del taller"
+msgstr "Correos destacados del curso"
 
 #: cms/templates/js/course-highlights-enable.underscore:7
 msgid "Enabled"
@@ -7423,7 +7521,7 @@ msgstr "Subir foto"
 
 #: cms/templates/js/course-manage-tags.underscore:3
 msgid "Course tags"
-msgstr "Etiquetas del taller"
+msgstr "Etiquetas del curso"
 
 #: cms/templates/js/course-manage-tags.underscore:7
 #: cms/templates/js/tag-list.underscore:28
@@ -7437,13 +7535,15 @@ msgstr "Prerrequisito: %(prereq_display_name)s "
 
 #: cms/templates/js/course-outline.underscore:56
 msgid "Contains staff only content"
-msgstr "Contiene solo contenido del equipo del taller"
+msgstr "Contiene solo contenido del equipo del curso"
 
 #: cms/templates/js/course-outline.underscore:60
 msgid ""
 "Hidden in the course outline, but sections are accessible for your learners "
 "through their separate link."
-msgstr "Oculto en el esquema del taller, pero los alumnos pueden acceder a las secciones a través de su enlace separado."
+msgstr ""
+"Oculto en el esquema del curso, pero los alumnos pueden acceder a las "
+"secciones a través de su enlace separado."
 
 #: cms/templates/js/course-outline.underscore:63
 msgid ""
@@ -7585,7 +7685,8 @@ msgstr "Fecha de entrega:"
 
 #: cms/templates/js/course-outline.underscore:410
 msgid "Subsection is hidden after course end date"
-msgstr "La subsección está oculta después de la fecha de terminación del taller."
+msgstr ""
+"La subsección está oculta después de la fecha de terminación del curso."
 
 #: cms/templates/js/course-outline.underscore:412
 msgid "Subsection is hidden after due date"
@@ -7607,7 +7708,7 @@ msgstr ""
 #: cms/templates/js/course-outline.underscore:457
 #: cms/templates/js/xblock-outline.underscore:57
 msgid "You haven't added any content to this course yet."
-msgstr "Todavía no ha añadido ningún contenido a este taller."
+msgstr "Todavía no ha añadido ningún contenido a este curso."
 
 #: cms/templates/js/course-outline.underscore:461
 #: cms/templates/js/course-outline.underscore:482
@@ -7659,15 +7760,16 @@ msgstr "Seleccione descartar cambios para descartar los cambios realizados"
 
 #: cms/templates/js/course-video-settings-update-settings-footer.underscore:7
 msgid "Press update settings to update course video settings"
-msgstr "Seleccione actualizar ajustes para actualizar los ajustes de vídeo del taller"
+msgstr ""
+"Seleccione actualizar ajustes para actualizar los ajustes de vídeo del curso"
 
 #: cms/templates/js/course-video-settings.underscore:7
 msgid "Press close to hide course video settings"
-msgstr "Seleccione cerrar para ocultar los ajustes de vídeo del taller"
+msgstr "Seleccione cerrar para ocultar los ajustes de vídeo del curso"
 
 #: cms/templates/js/course-video-settings.underscore:13
 msgid "Course Video Settings"
-msgstr "Ajustes de vídeo del taller"
+msgstr "Ajustes de vídeo del curso"
 
 #: cms/templates/js/course-video-sharing-enable.underscore:3
 msgid "Video Sharing"
@@ -7766,7 +7868,9 @@ msgstr "Número total"
 msgid ""
 "The number of subsections in the course that contain problems of this "
 "assignment type."
-msgstr "El número de subdivisiones del taller que contiene problemas de este tipo de asignación."
+msgstr ""
+"El número de subdivisiones del curso que contiene problemas de este tipo de "
+"asignación."
 
 #: cms/templates/js/course_grade_policy.underscore:27
 msgid "Number of Droppable"
@@ -7790,11 +7894,13 @@ msgstr "Advertencia:"
 msgid ""
 "The number of {type} assignments defined here does not match the current "
 "number of {type} assignments in the course:"
-msgstr "El número de tareas {type} definido aquí no coincide con el número actual de tareas {type} en el taller:"
+msgstr ""
+"El número de tareas {type} definido aquí no coincide con el número actual de"
+" tareas {type} en el curso:"
 
 #: cms/templates/js/course_grade_policy.underscore:47
 msgid "There are no assignments of this type in the course."
-msgstr "No hay tareas de este tipo en el taller."
+msgstr "No hay tareas de este tipo en el curso."
 
 #: cms/templates/js/course_grade_policy.underscore:51
 #, python-brace-format
@@ -7806,11 +7912,13 @@ msgstr "{assignment_count} {type} tarea(s) encontrada(s):"
 msgid ""
 "The number of {type} assignments in the course matches the number defined "
 "here."
-msgstr "El número de asignaciones {type} en el taller coincide con el número definido aquí."
+msgstr ""
+"El número de asignaciones {type} en el curso coincide con el número definido"
+" aquí."
 
 #: cms/templates/js/course_info_handouts.underscore:3
 msgid "Course Handouts"
-msgstr "Materiales del taller"
+msgstr "Materiales del curso"
 
 #: cms/templates/js/course_info_handouts.underscore:9
 msgid "You have no handouts defined"
@@ -7939,7 +8047,9 @@ msgstr "Estás editando contenido de una biblioteca."
 msgid ""
 "Edits made here will only be reflected in this course. These edits may be "
 "overridden later if updates are accepted."
-msgstr "Los cambios realizados aquí solo se reflejarán en este taller. Estos cambios pueden ser anulados más tarde si se aceptan actualizaciones."
+msgstr ""
+"Los cambios realizados aquí solo se reflejarán en este curso. Estos cambios "
+"pueden ser anulados más tarde si se aceptan actualizaciones."
 
 #: cms/templates/js/edit-upstream-alert.underscore:14
 msgid "View in Library"
@@ -8104,7 +8214,8 @@ msgstr "Muestra de la Licencia"
 msgid ""
 "The following message will be displayed at the bottom of the courseware "
 "pages within your course:"
-msgstr "El siguiente mensaje será mostrado al final de las páginas de los talleres. "
+msgstr ""
+"El siguiente mensaje será mostrado al final de las páginas de los cursos. "
 
 #: cms/templates/js/license-selector.underscore:101
 msgid "Creative Commons licensed content, with terms as follow:"
@@ -8167,7 +8278,7 @@ msgstr "Seleccionado actualmente"
 
 #: cms/templates/js/no-textbooks.underscore:2
 msgid "You haven't added any textbooks to this course yet."
-msgstr "No ha añadido aún ningún libro de texto a este taller."
+msgstr "No ha añadido aún ningún libro de texto a este curso."
 
 #: cms/templates/js/no-textbooks.underscore:2
 msgid "Add your first textbook"
@@ -8253,7 +8364,7 @@ msgstr "Borrador (Nunca publicado)"
 
 #: cms/templates/js/publish-xblock.underscore:4
 msgid "Visible to Staff Only"
-msgstr "Visible solo para el equipo del taller"
+msgstr "Visible solo para el equipo del curso"
 
 #: cms/templates/js/publish-xblock.underscore:6
 msgid "Published and Live"
@@ -8308,7 +8419,7 @@ msgstr "Será visible para:"
 
 #: cms/templates/js/publish-xblock.underscore:88
 msgid "Staff Only"
-msgstr "Solo equipo del taller"
+msgstr "Solo equipo del curso"
 
 #: cms/templates/js/publish-xblock.underscore:92
 #, python-format
@@ -8528,7 +8639,7 @@ msgstr ""
 
 #: cms/templates/js/staff-lock-editor.underscore:22
 msgid "Hide in Course Outline, accessible via Link"
-msgstr "Ocultar en el esquema del taller, accesible a través de un enlace"
+msgstr "Ocultar en el esquema del curso, accesible a través de un enlace"
 
 #: cms/templates/js/staff-lock-editor.underscore:24
 msgid ""
@@ -8550,7 +8661,9 @@ msgstr ""
 msgid ""
 "It is intentionally hidden from learners, ensuring that only the course "
 "staff can view its contents."
-msgstr "Está intencionalmente oculto a los alumnos, lo que garantiza que solo el personal del taller pueda ver su contenido."
+msgstr ""
+"Está intencionalmente oculto a los alumnos, lo que garantiza que solo el "
+"personal del curso pueda ver su contenido."
 
 #: cms/templates/js/staff-lock-editor.underscore:45
 msgid ""
@@ -8820,7 +8933,9 @@ msgstr "Archivo subido con exito"
 msgid ""
 "Please check the following validation feedbacks and reflect them in your "
 "course settings:"
-msgstr "Por favor revisa la retroalimentación de validación y reflejalo en tu configuración de taller."
+msgstr ""
+"Por favor revisa la retroalimentación de validación y reflejalo en tu "
+"configuración de curso."
 
 #: cms/templates/js/verification-access-editor.underscore:3
 msgid "Verification Checkpoint"
@@ -8880,7 +8995,9 @@ msgstr "Editar %(display_name)s (requerido)"
 msgid ""
 "You have done a dry run of force publishing the course. Nothing has changed."
 " Had you run it, the following course versions would have been change."
-msgstr "Ha corrido un simulacro de publicación del taller. No han habido cambios. Si lo hubiera hecho realmente, las siguientes versiones habrían tenido cambios."
+msgstr ""
+"Ha corrido un simulacro de publicación del curso. No han habido cambios. Si "
+"lo hubiera hecho realmente, las siguientes versiones habrían tenido cambios."
 
 #: cms/templates/js/maintenance/force-published-course-response.underscore:7
 #, python-brace-format
@@ -9310,7 +9427,7 @@ msgstr "sigue esta publicación"
 
 #: common/static/common/templates/discussion/templates.underscore:483
 msgid "post anonymously to classmates"
-msgstr "publica anónimamente a tus compañeros de taller"
+msgstr "publica anónimamente a tus compañeros de curso"
 
 #: common/static/common/templates/discussion/templates.underscore:507
 msgid "Error posting your message."
@@ -9341,7 +9458,7 @@ msgstr "(Profesor ayudante de la comunidad)"
 
 #: common/static/common/templates/discussion/templates.underscore:550
 msgid "(Staff)"
-msgstr "(Equipo del taller)"
+msgstr "(Equipo del curso)"
 
 #: common/static/common/templates/discussion/templates.underscore:572
 #: lms/djangoapps/discussion/static/discussion/templates/user-profile.underscore:6
@@ -9499,7 +9616,7 @@ msgstr "nombre de usuario o correo electrónico"
 
 #: lms/djangoapps/support/static/support/templates/certificates.underscore:17
 msgid "course id"
-msgstr "Id de Taller"
+msgstr "Id de Curso"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore:2
 #: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:16
@@ -9509,7 +9626,7 @@ msgstr "Sin resultados"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore:6
 msgid "Course Key"
-msgstr "Llave del taller"
+msgstr "Llave del curso"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore:8
 msgid "Status"
@@ -9571,15 +9688,15 @@ msgstr "Nombre de usuario o  correo electrónico"
 
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore:20
 msgid "Course ID"
-msgstr "Id de Taller"
+msgstr "Id de Curso"
 
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore:21
 msgid "Course Start"
-msgstr "Inicio del Taller"
+msgstr "Inicio del Curso"
 
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore:22
 msgid "Course End"
-msgstr "Finalización del taller"
+msgstr "Finalización del curso"
 
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore:23
 msgid "Upgrade Deadline"
@@ -9761,7 +9878,7 @@ msgstr ""
 
 #: lms/templates/api_admin/catalog-results.underscore:1
 msgid "This catalog's courses:"
-msgstr "Los talleres de este catálogo:"
+msgstr "Los cursos de este catálogo:"
 
 #: lms/templates/ccx/schedule.underscore:3
 msgid "Expand All"
@@ -10254,7 +10371,9 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:131
 msgid "Only the parent course staff of a CCX can create content groups."
-msgstr "Sólo el personal del taller principal de un CCX puede crear grupos de contenido."
+msgstr ""
+"Sólo el personal del curso principal de un CCX puede crear grupos de "
+"contenido."
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:133
 msgid "Create a content group"
@@ -10316,7 +10435,11 @@ msgid ""
 "To review learner cohort assignments or see the results of uploading a CSV "
 "file, download course profile information or cohort results on the "
 "{link_start}Data Download{link_end} page."
-msgstr "Para revisar asiginaciones de cohortes de los estudiantes o ver los resultados del archivo CVS que está subiendo, descargue la información del perfil del taller o los resultados del cohorte en la página {link_start}Data Download{link_end}."
+msgstr ""
+"Para revisar asiginaciones de cohortes de los estudiantes o ver los "
+"resultados del archivo CVS que está subiendo, descargue la información del "
+"perfil del curso o los resultados del cohorte en la página {link_start}Data "
+"Download{link_end}."
 
 #: lms/templates/instructor/instructor_dashboard_2/discussions.underscore:3
 msgid "Specify whether discussion topics are divided"
@@ -10324,11 +10447,11 @@ msgstr "Especifique si los temas de la discusión están divididos"
 
 #: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore:6
 msgid "Course-Wide Discussion Topics"
-msgstr "Temas de discusión de todo el taller"
+msgstr "Temas de discusión de todo el curso"
 
 #: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore:7
 msgid "Select the course-wide discussion topics that you want to divide."
-msgstr "Seleccione los temas de discusión del taller que desea dividir."
+msgstr "Seleccione los temas de discusión del curso que desea dividir."
 
 #: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:8
 msgid "Content-Specific Discussion Topics"
@@ -10336,7 +10459,9 @@ msgstr "Temas de discusión específicos al contenido"
 
 #: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:9
 msgid "Specify whether content-specific discussion topics are divided."
-msgstr "Especifique si los contenidos específicos de la discusión del taller están divididos."
+msgstr ""
+"Especifique si los contenidos específicos de la discusión del curso están "
+"divididos."
 
 #: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:13
 msgid "Always divide content-specific discussion topics"
@@ -10375,7 +10500,9 @@ msgstr "Cambia o abandona la edición"
 #: lms/templates/learner_dashboard/course_card.underscore:29
 #, python-brace-format
 msgid "You must select a session by {expiration_date} to access the course."
-msgstr "Debes seleccionar una edición antes de {expiration_date} para acceder al taller."
+msgstr ""
+"Debes seleccionar una edición antes de {expiration_date} para acceder al "
+"curso."
 
 #: lms/templates/learner_dashboard/course_card.underscore:33
 msgid "You can no longer change sessions."
@@ -10388,11 +10515,11 @@ msgstr "Puede cambiar ediciones hasta {expiration_date}."
 
 #: lms/templates/learner_dashboard/course_enroll.underscore:5
 msgid "View Archived Course"
-msgstr "Ver taller archivado"
+msgstr "Ver curso archivado"
 
 #: lms/templates/learner_dashboard/course_enroll.underscore:7
 msgid "View Course"
-msgstr "Ver taller"
+msgstr "Ver curso"
 
 #: lms/templates/learner_dashboard/course_enroll.underscore:15
 msgid "Select a session:"
@@ -10425,12 +10552,12 @@ msgstr "Cambiar a una sesión diferente o salir de la sección actual."
 
 #: lms/templates/learner_dashboard/course_entitlement.underscore:9
 msgid "To access the course, select a session."
-msgstr "Para acceder al taller selecciona una edición."
+msgstr "Para acceder al curso selecciona una edición."
 
 #: lms/templates/learner_dashboard/course_entitlement.underscore:15
 #, python-brace-format
 msgid "Session Selection Dropdown for {courseName}"
-msgstr "Menú desplegable para seleccionar la edición del taller {courseName}"
+msgstr "Menú desplegable para seleccionar la edición del curso {courseName}"
 
 #: lms/templates/learner_dashboard/course_entitlement.underscore:19
 #, python-brace-format
@@ -10462,7 +10589,9 @@ msgstr "Explorar programas"
 msgid ""
 "Browse recently launched courses and see what\\'s new in your favorite "
 "subjects"
-msgstr "Echa un vistazo a nuestros talleres lanzados recientemente y qué hay de nuevo en tus temas favoritos."
+msgstr ""
+"Echa un vistazo a nuestros cursos lanzados recientemente y qué hay de nuevo "
+"en tus temas favoritos."
 
 #: lms/templates/learner_dashboard/explore_new_programs.underscore:6
 msgid "Explore new programs"
@@ -10474,9 +10603,9 @@ msgstr "Explorar nuevos programas"
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore:15
 msgid "Course"
 msgid_plural "Courses"
-msgstr[0] "Taller"
-msgstr[1] "Talleres"
-msgstr[2] "Talleres"
+msgstr[0] "Curso"
+msgstr[1] "Cursos"
+msgstr[2] "Cursos"
 
 #: lms/templates/learner_dashboard/program_card.underscore:18
 msgid "Completed"
@@ -10563,12 +10692,15 @@ msgid ""
 "Track and plan your progress through the %(count)s course(s) in this "
 "program. To complete the program, you must earn a verified certificate for "
 "each course."
-msgstr "Supervisa y planifica tu progreso con los %(count)s talleres de este programa. Para completar el programa, debes obtener un certificado verificado para cada taller."
+msgstr ""
+"Supervisa y planifica tu progreso con los %(count)s cursos de este programa."
+" Para completar el programa, debes obtener un certificado verificado para "
+"cada curso."
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:52
 #: lms/templates/learner_dashboard/program_details_view.underscore:28
 msgid "Upgrade All Remaining Courses ("
-msgstr "Actualizar los talleres restantes ("
+msgstr "Actualizar los cursos restantes ("
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:56
 #: lms/templates/learner_dashboard/program_details_view.underscore:32
@@ -10585,28 +10717,30 @@ msgstr " ${price} {currency} )"
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:73
 #: lms/templates/learner_dashboard/program_details_view.underscore:49
 msgid "COURSES IN PROGRESS"
-msgstr "TALLERES EN PROGRESO"
+msgstr "CURSOS EN PROGRESO"
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:82
 #: lms/templates/learner_dashboard/program_details_view.underscore:58
 msgid "REMAINING COURSES"
-msgstr "TALLERES RESTANTES"
+msgstr "CURSOS RESTANTES"
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:90
 #: lms/templates/learner_dashboard/program_details_view.underscore:66
 msgid "COMPLETED COURSES"
-msgstr "TALLERES COMPLETADOS"
+msgstr "CURSOS COMPLETADOS"
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:97
 #: lms/templates/learner_dashboard/program_details_view.underscore:73
 msgid "As you complete courses, you will see them listed here."
-msgstr "Mientras completas talleres, los verás enumerados aquí."
+msgstr "Mientras completas cursos, los verás enumerados aquí."
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:98
 #: lms/templates/learner_dashboard/program_details_view.underscore:74
 msgid ""
 "Complete courses on your schedule to ensure you stand out in your field!"
-msgstr "¡Complete talleres según tu horario para asegurar que sobresalgas en tu disciplina!"
+msgstr ""
+"¡Complete cursos según tu horario para asegurar que sobresalgas en tu "
+"disciplina!"
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:122
 #, python-format
@@ -10630,7 +10764,10 @@ msgid ""
 "Track and plan your progress through the %(count)s courses in this program. "
 "To complete the program, you must earn a verified certificate for each "
 "course."
-msgstr "Supervisa y planifica tu progreso con los %(count)s talleres de este programa. Para completar el programa, debes obtener un certificado verificado correspondiente a cada taller."
+msgstr ""
+"Supervisa y planifica tu progreso con los %(count)s cursos de este programa."
+" Para completar el programa, debes obtener un certificado verificado "
+"correspondiente a cada curso."
 
 #: lms/templates/learner_dashboard/program_header_view.underscore:15
 #, python-brace-format
@@ -10874,11 +11011,11 @@ msgstr "Ahora estas inscrito como estudiante verificado para:"
 
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore:12
 msgid "A list of courses you have just enrolled in as a verified student"
-msgstr "Lista de talleres que te has inscrito como estudiante verificado"
+msgstr "Lista de cursos que te has inscrito como estudiante verificado"
 
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore:31
 msgid "Explore your course!"
-msgstr "Explora tus talleres!"
+msgstr "Explora tus cursos!"
 
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore:35
 msgid "Go to your Dashboard"
@@ -10895,7 +11032,11 @@ msgid ""
 "now sign up for any %(platformName)s course that offers verified "
 "certificates. Verification is good for one year. After one year, you must "
 "submit photos for verification again."
-msgstr "Gracias por enviar sus fotos. Las revisaremos pronto. Ahora puede registrarse para cualquier taller de %(platformName)s que ofrezca Certficados Verificados. La verificación es válida por un año. Después de este periodo, deberá volver a enviar fotografías para una nueva verificación."
+msgstr ""
+"Gracias por enviar sus fotos. Las revisaremos pronto. Ahora puede "
+"registrarse para cualquier curso de %(platformName)s que ofrezca Certficados"
+" Verificados. La verificación es válida por un año. Después de este periodo,"
+" deberá volver a enviar fotografías para una nueva verificación."
 
 #: lms/templates/verify_student/error.underscore:6
 msgid "Error:"
@@ -11219,7 +11360,11 @@ msgid ""
 "You need to activate your account before you can enroll in courses. Check "
 "your inbox for an activation email. After you complete activation you can "
 "return and refresh this page."
-msgstr "Necesita activar la cuenta antes de que pueda registrarse para el taller. Revise su bandeja de entrada que un correo electrónico de activación fue enviado. Una vez haya completado la activación puede regresar y recargar esta página."
+msgstr ""
+"Necesita activar la cuenta antes de que pueda registrarse para el curso. "
+"Revise su bandeja de entrada que un correo electrónico de activación fue "
+"enviado. Una vez haya completado la activación puede regresar y recargar "
+"esta página."
 
 #: lms/templates/verify_student/intro_step.underscore:31
 msgid "Activate Your Account"
@@ -11308,13 +11453,17 @@ msgstr "Foto de documento oficial de identificación"
 #: lms/templates/verify_student/make_payment_step.underscore:92
 msgid ""
 "ID-Verification is not required for this Professional Education course."
-msgstr "La verification de ID no se requiere para este taller de Educación Profesional"
+msgstr ""
+"La verification de ID no se requiere para este curso de Educación "
+"Profesional"
 
 #: lms/templates/verify_student/make_payment_step.underscore:93
 msgid ""
 "All professional education courses are fee-based, and require payment to "
 "complete the enrollment process."
-msgstr "Todos los talleres de educación profesional son basados en honorarios, y requieren el pago para completar el proceso de inscripción."
+msgstr ""
+"Todos los cursos de educación profesional son basados en honorarios, y "
+"requieren el pago para completar el proceso de inscripción."
 
 #: lms/templates/verify_student/make_payment_step.underscore:97
 msgid "You have already verified your ID!"
@@ -11407,7 +11556,11 @@ msgid ""
 "see a message on your dashboard when the verification process is complete "
 "(usually within 5-7 days). In the meantime, you can still access all "
 "available course content."
-msgstr "Hemos recibido su información y estamos verificando su identidad. Verá un mensaje en su tablero cuando se complete el proceso de verificación (generalmente dentro de 5-7 días). Mientras tanto, aún puede acceder a todo el contenido del taller disponible."
+msgstr ""
+"Hemos recibido su información y estamos verificando su identidad. Verá un "
+"mensaje en su tablero cuando se complete el proceso de verificación "
+"(generalmente dentro de 5-7 días). Mientras tanto, aún puede acceder a todo "
+"el contenido del curso disponible."
 
 #: lms/templates/verify_student/reverify_success_step.underscore:9
 msgid "Return to Your Dashboard"
@@ -11503,13 +11656,16 @@ msgstr "Añadido a marcadores en"
 
 #: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:44
 msgid "You have not bookmarked any courseware pages yet"
-msgstr "No has añadido marcadores a ninguna página del taller todavía"
+msgstr "No has añadido marcadores a ninguna página del curso todavía"
 
 #: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:49
 msgid ""
 "Use bookmarks to help you easily return to courseware pages. To bookmark a "
 "page, click \"Bookmark this page\" under the page title."
-msgstr "Usa marcadores para ayudarte a regresar fácilmente a ciertas páginas en el taller. Para marcar una página, haz clic en \"Marcar esta página\" bajo el título de la página."
+msgstr ""
+"Usa marcadores para ayudarte a regresar fácilmente a ciertas páginas en el "
+"curso. Para marcar una página, haz clic en \"Marcar esta página\" bajo el "
+"título de la página."
 
 #: openedx/features/course_search/static/course_search/templates/course_search_results.underscore:13
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:14

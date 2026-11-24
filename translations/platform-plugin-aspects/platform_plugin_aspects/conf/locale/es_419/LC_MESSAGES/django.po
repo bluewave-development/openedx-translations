@@ -22,7 +22,7 @@ msgstr ""
 
 #: settings/common.py:114
 msgid "Course"
-msgstr "Taller"
+msgstr "Curso"
 
 #: settings/common.py:122
 msgid "Graded Subsection"

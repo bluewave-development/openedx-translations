@@ -41,7 +41,10 @@ msgid ""
 "Take a little bit of time to reflect here. Research shows that a meaningful "
 "synthesis will help you better understand and remember material from this "
 "course."
-msgstr "Tómate un poco de tiempo para reflexionar aquí. Las investigaciones muestran que una síntesis significativa lo ayudará a comprender y recordar mejor el material de este taller."
+msgstr ""
+"Tómate un poco de tiempo para reflexionar aquí. Las investigaciones muestran"
+" que una síntesis significativa lo ayudará a comprender y recordar mejor el "
+"material de este curso."
 
 #: feedback.py:43 feedback.py:164
 msgid "Excellent"
@@ -117,13 +120,15 @@ msgstr "Mostar reporte agregado a estudiantes"
 
 #: feedback.py:159
 msgid "Please reflect on this course material"
-msgstr "Por favor reflexiona sobre el material de este taller"
+msgstr "Por favor reflexiona sobre el material de este curso"
 
 #: feedback.py:160
 msgid ""
 "Please take time to meaningfully reflect on your experience with this course"
 " material."
-msgstr "Por favor, tómese el tiempo para reflexionar de manera significativa sobre su experiencia con el material de este taller."
+msgstr ""
+"Por favor, tómese el tiempo para reflexionar de manera significativa sobre "
+"su experiencia con el material de este curso."
 
 #: feedback.py:163
 msgid "Please rate your overall experience"
@@ -174,7 +179,10 @@ msgid ""
 "This XBlock allows you to collect student feedback on pieces of the course. "
 "This may be helpful either for course improvement, or to give students a "
 "chance to reflect on what they have done."
-msgstr "Este XBlock permite recopilar comentarios de los estudiantes sobre partes del taller. Esto puede ser útil tanto para mejorar el taller como para dar a los estudiantes la oportunidad de reflexionar sobre lo que han hecho."
+msgstr ""
+"Este XBlock permite recopilar comentarios de los estudiantes sobre partes "
+"del curso. Esto puede ser útil tanto para mejorar el curso como para dar a "
+"los estudiantes la oportunidad de reflexionar sobre lo que han hecho."
 
 #: templates/html/studio_view.html:9
 msgid "Display name"

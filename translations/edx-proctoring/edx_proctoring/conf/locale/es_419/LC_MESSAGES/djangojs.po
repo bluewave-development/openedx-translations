@@ -222,7 +222,7 @@ msgstr "Has enviado tu examen de integración."
 
 #: static/proctoring/js/views/proctored_exam_info.js:35
 msgid "Your onboarding exam has been approved in this course."
-msgstr "Tu examen de ingreso ha sido aprobado en este taller."
+msgstr "Tu examen de ingreso ha sido aprobado en este curso."
 
 #: static/proctoring/js/views/proctored_exam_info.js:39
 msgid "Your onboarding exam has been rejected. Please retry onboarding."
@@ -240,18 +240,21 @@ msgstr ""
 #: static/proctoring/js/views/proctored_exam_info.js:46
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:32
 msgid "Approved in Another Course"
-msgstr "Aprobado en otro taller"
+msgstr "Aprobado en otro curso"
 
 #: static/proctoring/js/views/proctored_exam_info.js:47
 msgid "Your onboarding exam has been approved in another course."
-msgstr "Tu examen de ingreso ha sido aprobado en otro taller."
+msgstr "Tu examen de ingreso ha sido aprobado en otro curso."
 
 #: static/proctoring/js/views/proctored_exam_info.js:49
 msgid ""
 "If your device has changed, we recommend that you complete this course's "
 "onboarding exam in order to ensure that your setup still meets the "
 "requirements for proctoring."
-msgstr "Si tu dispositivo ha cambiado, te recomendamos que realices el examen de ingreso de este taller para asegurarte de que tu configuración sigue cumpliendo los requisitos para el examen supervisado."
+msgstr ""
+"Si tu dispositivo ha cambiado, te recomendamos que realices el examen de "
+"ingreso de este curso para asegurarte de que tu configuración sigue "
+"cumpliendo los requisitos para el examen supervisado."
 
 #: static/proctoring/js/views/proctored_exam_info.js:55
 msgid "Expiring Soon"

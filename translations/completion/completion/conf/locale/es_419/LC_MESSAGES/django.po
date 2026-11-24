@@ -36,7 +36,7 @@ msgstr "Key '{key}' not found."
 
 #: api/v1/views.py:97
 msgid "User is not enrolled in course."
-msgstr "El usuario no está inscrito en el taller."
+msgstr "El usuario no está inscrito en el curso."
 
 #: api/v1/views.py:115
 msgid "Invalid learning context key: {}"

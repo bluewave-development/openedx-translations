@@ -208,7 +208,7 @@ msgstr ""
 
 #: static/proctoring/js/views/proctored_exam_info.js:35
 msgid "Your onboarding exam has been approved in this course."
-msgstr "Your onboarding exam has been approved in this workshop."
+msgstr ""
 
 #: static/proctoring/js/views/proctored_exam_info.js:39
 msgid "Your onboarding exam has been rejected. Please retry onboarding."
@@ -222,18 +222,18 @@ msgstr ""
 #: static/proctoring/js/views/proctored_exam_info.js:46
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:32
 msgid "Approved in Another Course"
-msgstr "Approved in Another Workshop"
+msgstr ""
 
 #: static/proctoring/js/views/proctored_exam_info.js:47
 msgid "Your onboarding exam has been approved in another course."
-msgstr "Your onboarding exam has been approved in another workshop."
+msgstr ""
 
 #: static/proctoring/js/views/proctored_exam_info.js:49
 msgid ""
 "If your device has changed, we recommend that you complete this course's "
 "onboarding exam in order to ensure that your setup still meets the "
 "requirements for proctoring."
-msgstr "If your device has changed, we recommend that you complete this workshop's onboarding exam in order to ensure that your setup still meets the requirements for proctoring."
+msgstr ""
 
 #: static/proctoring/js/views/proctored_exam_info.js:55
 msgid "Expiring Soon"
