@@ -2771,5 +2771,6 @@
   "course-authoring.pages-resources.app-settings-modal.reset": "",
   "course-authoring.course-team.sectionNotAvailable.bw": "Actualmente esta sección no está disponible, si desea registrar un instructor, comuníquese con un administrador para realizar la solicitud.",
   "course-authoring.create-or-rerun-course.total-length-error.error": "La longitud combinada de los campos de organización, número del taller y edición del taller no puede superar los {maxTotalLength} caracteres.",
-  "course-authoring.library-authoring.container.settings.alert.message": "La configuración de la sección no se puede establecer dentro de las Bibliotecas y debe configurarse dentro de un taller. En una versión futura, las Bibliotecas podrían admitir la configuración de algunos ajustes."
+  "course-authoring.library-authoring.container.settings.alert.message": "La configuración de la sección no se puede establecer dentro de las Bibliotecas y debe configurarse dentro de un taller. En una versión futura, las Bibliotecas podrían admitir la configuración de algunos ajustes.",
+  "header.help.label": "Ayuda"
 }
